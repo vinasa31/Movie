@@ -14,9 +14,10 @@
          NAVIGATION
     ============================== -->
     <header class="navbar">
+        <!-- Desktop layout -->
         <div class="logo">VIBE<span>PLAY</span></div>
 
-        <nav>
+        <nav class="desktop-nav">
             <a href="#">Home</a>
             <a href="#popular">Trending</a>
             <a href="#movies">Movies</a>
@@ -24,11 +25,32 @@
             <a href="#anime">Anime</a>
         </nav>
 
-        <div class="nav-right">
+        <div class="nav-right desktop-nav-right">
             <input type="text" id="searchInput" placeholder="Search movies...">
             <button class="login-btn">Login</button>
         </div>
+
+        <!-- Mobile layout -->
+        <button class="hamburger-btn" onclick="toggleMobileMenu()">☰</button>
+
+        <div class="mobile-search-bar">
+            <input type="text" id="searchInputMobile" placeholder="Search...">
+            <button class="search-icon-btn">🔍</button>
+        </div>
+
+        <button class="vip-btn">👑 VIP</button>
     </header>
+
+    <!-- Mobile category tabs (shown only on mobile) -->
+    <div class="cat-tabs" id="catTabs">
+        <a href="#" class="cat-tab active">For You</a>
+        <a href="#popular" class="cat-tab">Trending</a>
+        <a href="#movies" class="cat-tab">Movies</a>
+        <a href="#dramas" class="cat-tab">Dramas</a>
+        <a href="#anime" class="cat-tab">Anime</a>
+        <a href="#" class="cat-tab">New</a>
+        <a href="#" class="cat-tab">Top 10</a>
+    </div>
 
 
     <!-- ==============================
@@ -39,6 +61,24 @@
             <span class="tag">FEATURED SERIES</span>
 
             <h1>Hidden Love</h1>
+
+            <!-- Rating + meta row (visible on mobile below the title) -->
+            <div class="hero-meta">
+                <span class="hero-rating">⭐ 9.5</span>
+                <span>2023</span>
+                <span class="hero-age">PG-13</span>
+                <span>24 Episodes</span>
+            </div>
+
+            <!-- Genre tags row -->
+            <div class="hero-tags">
+                <span>China</span>
+                <span>Romance</span>
+                <span>Youth</span>
+                <span>Chinese</span>
+                <span>Drama</span>
+                <span>Sweet</span>
+            </div>
 
             <p>
                 Since high school, Sang Zhi has had a crush on Duan Jiaxu.

@@ -165,3 +165,55 @@ function handleNavbarScroll() {
 
 window.addEventListener("scroll", handleNavbarScroll);
 handleNavbarScroll();
+
+
+// ==============================
+// MOBILE: HAMBURGER TOGGLE
+// ==============================
+
+function toggleMobileMenu() {
+    // Placeholder — can expand into a slide-out menu later
+    const catTabs = document.getElementById("catTabs");
+    if (catTabs) {
+        catTabs.style.display = catTabs.style.display === "none" ? "flex" : "flex";
+    }
+}
+
+
+// ==============================
+// MOBILE: SYNC SEARCH INPUTS
+// ==============================
+
+const mobileSearchInput = document.getElementById("searchInputMobile");
+
+if (mobileSearchInput) {
+
+    mobileSearchInput.addEventListener("input", function() {
+
+        // Mirror mobile search into the main search input and trigger its event
+        const desktopInput = document.getElementById("searchInput");
+        desktopInput.value = this.value;
+        desktopInput.dispatchEvent(new Event("input"));
+
+    });
+
+}
+
+
+// ==============================
+// MOBILE: CATEGORY TAB ACTIVE STATE
+// ==============================
+
+document.querySelectorAll(".cat-tab").forEach(function(tab) {
+
+    tab.addEventListener("click", function() {
+
+        document.querySelectorAll(".cat-tab").forEach(function(t) {
+            t.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+    });
+
+});
