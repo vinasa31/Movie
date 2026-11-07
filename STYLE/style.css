@@ -98,7 +98,7 @@ nav a:hover {
     background:
         linear-gradient(to right, #101010 15%, transparent 100%),
         linear-gradient(to top, #101010, transparent 45%),
-        url("/IMG/MV5BNDMxNDBlYjMtYTg1OS00ZjhmLWFhNDUtZGFmNDEzZDQ0Y2ZlXkEyXkFqcGc@._V1_.jpg")
+        url("../IMG/MV5BNDMxNDBlYjMtYTg1OS00ZjhmLWFhNDUtZGFmNDEzZDQ0Y2ZlXkEyXkFqcGc@._V1_.jpg")
         center top / cover no-repeat;
 }
 
