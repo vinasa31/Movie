@@ -1,666 +1,997 @@
-
 /* GENERAL */
+
 * {
     margin: 0;
+
     padding: 0;
+
     box-sizing: border-box;
+
 }
+
+
 
 html {
+
     scroll-behavior: smooth;
+
     scroll-padding-top: 80px;
+
 }
+
+
 
 body {
+
     font-family: Arial, sans-serif;
+
     background: #101010;
+
     color: white;
+
 }
+
+
 
 /* NAVIGATION */
+
 .navbar {
+
     height: 75px;
+
     padding: 0 5%;
+
     display: flex;
+
     align-items: center;
+
     justify-content: space-between;
+
     background: transparent;
+
     position: fixed;
+
     top: 0;
+
     left: 0;
+
     width: 100%;
+
     z-index: 100;
+
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
 }
+
+
 
 .navbar.scrolled {
+
     background: #080808;
+
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+
 }
+
+
 
 .logo {
+
     font-size: 27px;
+
     font-weight: bold;
+
     color: #00cc99;
+
 }
+
+
 
 .logo span {
+
     color: white;
+
 }
+
+
 
 nav {
+
     display: flex;
+
     gap: 25px;
+
 }
+
+
 
 nav a {
+
     color: #ccc;
+
     text-decoration: none;
+
     transition: 0.3s;
+
 }
+
+
 
 nav a:hover {
+
     color: #00cc99;
+
 }
+
+
 
 .nav-right {
+
     display: flex;
+
     align-items: center;
+
     gap: 15px;
+
 }
+
+
 
 .nav-right input {
+
     padding: 10px 15px;
+
     border: 1px solid #444;
+
     background: #222;
+
     color: white;
+
     border-radius: 20px;
+
     outline: none;
+
     width: 180px;
+
 }
+
+
 
 .login-btn {
+
     padding: 10px 20px;
+
     background: #00cc99;
+
     color: black;
+
     border: none;
+
     border-radius: 20px;
+
     cursor: pointer;
+
 }
+
+
 
 /* HERO SECTION */
+
 .hero {
+
     height: 600px;
+
     display: flex;
+
     align-items: center;
+
     padding: 75px 8% 0;
 
+
+
     background:
+
         linear-gradient(to right, #101010 15%, transparent 100%),
+
         linear-gradient(to top, #101010, transparent 45%),
+
         url("../IMG/hiddenlove.jpg")
+
         center top / cover no-repeat;
+
 }
+
+
 
 .hero-content {
+
     max-width: 500px;
+
 }
+
+
 
 .tag {
+
     color: #00cc99;
+
     font-weight: bold;
+
     letter-spacing: 3px;
+
 }
+
+
 
 .hero h1 {
+
     font-size: 60px;
+
     margin: 20px 0;
+
 }
+
+
 
 .hero p {
+
     color: #ddd;
+
     line-height: 1.7;
+
     margin-bottom: 25px;
+
 }
+
+
 
 .hero-buttons {
+
     display: flex;
+
     gap: 15px;
+
 }
+
+
 
 .watch-btn,
+
 .info-btn {
+
     padding: 13px 25px;
+
     border: none;
+
     border-radius: 5px;
+
     cursor: pointer;
+
     font-size: 15px;
+
     font-weight: bold;
+
 }
+
+
 
 .watch-btn {
+
     background: #00cc99;
+
     color: #000;
+
 }
+
+
 
 .info-btn {
+
     background: #333;
+
     color: white;
+
 }
+
+
 
 .watch-btn:hover {
+
     background: #00e6ad;
+
 }
+
+
 
 .info-btn:hover {
+
     background: #555;
+
 }
+
+
 
 /* MOVIE SECTIONS */
+
 main {
+
     padding: 20px 5%;
+
 }
+
+
 
 .movie-section {
+
     margin: 35px 0;
+
 }
+
+
 
 .section-heading {
+
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
+
     margin-bottom: 20px;
+
 }
+
+
 
 .section-heading h2 {
+
     font-size: 23px;
+
 }
+
+
 
 .section-heading a {
+
     color: #00cc99;
+
     text-decoration: none;
+
 }
+
+
 
 /* MOVIE CARDS */
+
 .movie-container {
+
     display: grid;
+
     grid-template-columns: repeat(5, 1fr);
+
     gap: 20px;
+
 }
+
+
 
 .movie-card {
+
     cursor: pointer;
+
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
     min-width: 0;
+
     border-radius: 10px;
+
     overflow: hidden;
+
     background: #1a1a1a;
+
 }
+
+
 
 .movie-card:hover {
+
     transform: translateY(-8px);
+
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+
 }
+
+
 
 /* Poster image wrapper — fixed height, image centered */
+
 .movie-card .poster {
+
     width: 100%;
+
     height: 270px;
+
     overflow: hidden;
+
     background: #222;
+
     position: relative;
+
     border-radius: 8px 8px 0 0;
+
 }
+
+
 
 .movie-card .poster img {
+
     width: 100%;
+
     height: 100%;
+
     object-fit: cover;
+
     object-position: center center;
+
     display: block;
+
     transition: transform 0.4s ease;
+
 }
+
+
 
 .movie-card:hover .poster img {
+
     transform: scale(1.05);
+
 }
+
+
 
 /* Rating badge overlaid on the poster */
+
 .movie-card .poster .badge {
+
     position: absolute;
+
     top: 8px;
+
     right: 8px;
+
     background: rgba(0, 0, 0, 0.75);
+
     color: #f5c518;
+
     font-size: 12px;
+
     font-weight: bold;
+
     padding: 3px 8px;
+
     border-radius: 20px;
+
     backdrop-filter: blur(4px);
+
 }
+
+
 
 .movie-card .card-info {
+
     padding: 10px 12px 14px;
+
 }
+
+
 
 .movie-card h3 {
+
     font-size: 14px;
+
     font-weight: 600;
+
     margin: 0;
+
     white-space: nowrap;
+
     overflow: hidden;
+
     text-overflow: ellipsis;
+
 }
+
+
 
 .movie-card p {
+
     color: #888;
+
     font-size: 12px;
+
     margin-top: 5px;
+
     white-space: nowrap;
+
     overflow: hidden;
+
     text-overflow: ellipsis;
+
 }
+
+
 
 .movie-card:hover h3 {
+
     color: #00cc99;
+
 }
+
+
 
 /* MODAL */
+
 .modal {
+
     display: none;
+
     position: fixed;
+
     inset: 0;
+
     background: rgba(0, 0, 0, 0.85);
+
     z-index: 200;
+
     justify-content: center;
+
     align-items: center;
+
     padding: 20px;
+
 }
+
+
 
 .modal-content {
+
     background: #222;
+
     width: 650px;
+
     max-width: 100%;
+
     border-radius: 12px;
+
     overflow: hidden;
+
     position: relative;
+
 }
+
+
 
 .modal-content img {
+
     width: 100%;
+
     height: 300px;
+
     object-fit: cover;
+
 }
+
+
 
 .modal-details {
+
     padding: 25px;
+
 }
+
+
 
 .modal-details h2 {
+
     margin-bottom: 12px;
+
 }
+
+
 
 .modal-details p {
+
     color: #bbb;
+
     margin-bottom: 15px;
+
     line-height: 1.6;
+
 }
+
+
 
 .close-btn {
+
     position: absolute;
+
     top: 12px;
+
     right: 15px;
+
     background: #111;
+
     color: white;
+
     border: none;
+
     padding: 10px;
+
     border-radius: 50%;
+
     cursor: pointer;
+
     z-index: 2;
+
 }
+
+
 
 /* FOOTER */
+
 footer {
+
     background: #080808;
+
     padding: 40px;
+
     text-align: center;
+
     color: #888;
+
     line-height: 2;
+
 }
+
+
 
 footer h2 {
+
     color: #00cc99;
+
 }
 
-/* ============================================
-   HERO META & TAGS (hidden on desktop)
-============================================ */
-.hero-meta {
-    display: none;
-}
-.hero-tags {
-    display: none;
-}
 
-/* ============================================
-   MOBILE NAVBAR ELEMENTS (hidden on desktop)
-============================================ */
-.hamburger-btn,
-.mobile-search-bar,
-.vip-btn,
-.cat-tabs {
-    display: none;
-}
 
-/* ============================================
-   RESPONSIVE
-============================================ */
+/* RESPONSIVE */
 
-/* ── Tablet (≤ 1000px) ── */
 @media (max-width: 1000px) {
+
     .movie-container {
+
         grid-template-columns: repeat(4, 1fr);
+
     }
+
+
+
     nav {
+
         gap: 12px;
+
     }
+
 }
 
-/* ── Mobile (≤ 750px) ── */
+
+
+/* ── Tablet / Large Mobile (≤ 750px) ── */
+
 @media (max-width: 750px) {
 
-    /* ---- NAVBAR ---- */
+
+
+    /* Navbar: single clean row — logo left, hamburger-style controls right */
+
     .navbar {
-        height: 56px;
-        padding: 0 14px;
+
+        height: 65px;
+
+        padding: 0 4%;
+
         gap: 10px;
-        justify-content: flex-start;
-        background: #101010 !important;  /* always solid on mobile */
-        box-shadow: none;
+
     }
 
-    /* Hide desktop nav elements */
-    .desktop-nav,
-    .desktop-nav-right {
-        display: none;
-    }
 
-    /* Show mobile elements */
-    .hamburger-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: none;
-        border: none;
-        color: white;
-        font-size: 20px;
-        cursor: pointer;
-        padding: 0;
-        flex-shrink: 0;
-    }
 
     .logo {
-        font-size: 20px;
-        flex-shrink: 0;
+
+        font-size: 22px;
+
     }
 
-    .mobile-search-bar {
-        display: flex;
-        align-items: center;
-        flex: 1;
-        background: #2a2a2a;
-        border-radius: 20px;
-        padding: 0 12px;
-        gap: 6px;
-        height: 36px;
+
+
+    /* Collapse nav links below the main bar */
+
+    nav {
+
+        display: none; /* hidden on mobile — can add hamburger later */
+
     }
 
-    .mobile-search-bar input {
-        background: none;
-        border: none;
-        outline: none;
-        color: #aaa;
+
+
+    .nav-right {
+
+        gap: 8px;
+
+    }
+
+
+
+    .nav-right input {
+
+        width: 140px;
+
+        padding: 8px 12px;
+
         font-size: 13px;
-        width: 100%;
+
     }
 
-    .search-icon-btn {
-        background: none;
-        border: none;
-        color: #aaa;
-        font-size: 15px;
-        cursor: pointer;
-        padding: 0;
-        flex-shrink: 0;
-    }
 
-    .vip-btn {
-        display: flex;
-        align-items: center;
-        gap: 4px;
-        background: #c8a800;
-        color: #000;
-        border: none;
-        border-radius: 4px;
-        padding: 6px 10px;
-        font-size: 12px;
-        font-weight: bold;
-        cursor: pointer;
-        flex-shrink: 0;
-        white-space: nowrap;
-    }
 
-    /* ---- CATEGORY TABS ---- */
-    .cat-tabs {
-        display: flex;
-        align-items: center;
-        gap: 0;
-        overflow-x: auto;
-        scrollbar-width: none;
-        background: #101010;
-        padding: 0 14px;
-        border-bottom: 1px solid #1e1e1e;
-        position: sticky;
-        top: 56px;
-        z-index: 99;
-        -webkit-overflow-scrolling: touch;
-    }
+    .login-btn {
 
-    .cat-tabs::-webkit-scrollbar {
-        display: none;
-    }
+        padding: 8px 14px;
 
-    .cat-tab {
-        color: #888;
-        text-decoration: none;
         font-size: 13px;
-        padding: 10px 14px;
-        white-space: nowrap;
-        border-bottom: 2px solid transparent;
-        transition: color 0.2s;
-        flex-shrink: 0;
+
     }
 
-    .cat-tab.active,
-    .cat-tab:hover {
-        color: white;
-        font-weight: bold;
-        border-bottom: 2px solid #00cc99;
-    }
 
-    /* ---- HERO — full-bleed, text at bottom ---- */
+
+    /* Hero: more breathing room, smaller text */
+
     .hero {
-        height: 320px;
-        min-height: unset;
-        padding: 0;
-        align-items: flex-end;
+
+        height: auto;
+
+        min-height: 500px;
+
+        padding: 100px 6% 50px;
+
         background:
-            linear-gradient(to top, #101010 18%, rgba(0,0,0,0.3) 60%, transparent 100%),
+
+            linear-gradient(to right, #101010 25%, transparent 90%),
+
+            linear-gradient(to top, #101010 10%, transparent 60%),
+
             url("../IMG/hiddenlove.jpg")
+
             center top / cover no-repeat;
+
     }
+
+
 
     .hero-content {
+
         max-width: 100%;
-        padding: 0 16px 18px;
-        width: 100%;
+
     }
+
+
 
     .tag {
-        display: none;   /* hide "FEATURED SERIES" label on mobile */
+
+        font-size: 11px;
+
+        letter-spacing: 2px;
+
     }
+
+
 
     .hero h1 {
-        font-size: 26px;
-        margin: 0 0 8px;
-        font-style: italic;
-        font-weight: bold;
-        line-height: 1.2;
+
+        font-size: 38px;
+
+        margin: 14px 0;
+
     }
 
-    /* Rating + meta row */
-    .hero-meta {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-size: 12px;
-        color: #ccc;
-        margin-bottom: 8px;
-    }
 
-    .hero-rating {
-        color: #f5c518;
-        font-weight: bold;
-    }
 
-    .hero-age {
-        border: 1px solid #aaa;
-        border-radius: 3px;
-        padding: 0 4px;
-        font-size: 11px;
-    }
-
-    /* Genre tags */
-    .hero-tags {
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        gap: 6px;
-        margin-bottom: 12px;
-        scrollbar-width: none;
-    }
-
-    .hero-tags::-webkit-scrollbar { display: none; }
-
-    .hero-tags span {
-        background: rgba(255,255,255,0.12);
-        border-radius: 20px;
-        padding: 3px 10px;
-        font-size: 11px;
-        color: #ddd;
-        white-space: nowrap;
-        flex-shrink: 0;
-    }
-
-    /* Description hidden on mobile (like iQIYI — just title + tags) */
     .hero p {
-        display: none;
+
+        font-size: 14px;
+
+        line-height: 1.6;
+
+        margin-bottom: 20px;
+
     }
 
-    .hero-buttons {
-        gap: 10px;
-    }
+
 
     .watch-btn,
+
     .info-btn {
-        padding: 9px 18px;
+
+        padding: 10px 18px;
+
         font-size: 13px;
-        border-radius: 4px;
+
     }
 
-    /* ---- MAIN CONTENT ---- */
-    main {
-        padding: 10px 0;
-    }
 
-    .movie-section {
-        margin: 20px 0;
-    }
 
-    .section-heading {
-        padding: 0 14px;
-        margin-bottom: 12px;
-    }
+    /* Movie grid: 3 columns */
 
-    .section-heading h2 {
-        font-size: 16px;
-        font-weight: bold;
-    }
-
-    /* ---- MOVIE CARDS — horizontal scroll row ---- */
     .movie-container {
-        display: flex;
-        flex-direction: row;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        gap: 10px;
-        padding: 0 14px 10px;
-        scrollbar-width: none;
-        -webkit-overflow-scrolling: touch;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 12px;
+
     }
 
-    .movie-container::-webkit-scrollbar {
-        display: none;
-    }
 
-    .movie-card {
-        flex: 0 0 130px;   /* 3 visible at 739px wide */
-        scroll-snap-align: start;
-        border-radius: 8px;
-    }
+
+    /* Shorter poster height to keep cards compact */
 
     .movie-card .poster {
-        height: 185px;
-        border-radius: 8px 8px 0 0;
+
+        height: 200px;
+
     }
 
-    .movie-card .card-info {
-        padding: 7px 8px 10px;
-    }
+
 
     .movie-card h3 {
-        font-size: 12px;
-        line-height: 1.3;
-        white-space: normal;             /* allow 2-line titles on mobile */
-        display: -webkit-box;
-        -webkit-line-clamp: 2;           /* Safari / older Chrome */
-        -webkit-box-orient: vertical;
-        line-clamp: 2;                   /* standard (future-proof) */
-        overflow: hidden;
+
+        font-size: 13px;
+
     }
+
+
 
     .movie-card p {
-        font-size: 10px;
-        margin-top: 3px;
+
+        font-size: 11px;
+
     }
+
+
+
+    .section-heading h2 {
+
+        font-size: 18px;
+
+    }
+
+
+
+    main {
+
+        padding: 15px 4%;
+
+    }
+
+
+
 }
+
+
 
 /* ── Small Mobile (≤ 480px) ── */
+
 @media (max-width: 480px) {
 
-    .movie-card {
-        flex: 0 0 115px;
+
+
+    .navbar {
+
+        height: 60px;
+
+        padding: 0 4%;
+
     }
 
-    .movie-card .poster {
-        height: 165px;
+
+
+    .logo {
+
+        font-size: 20px;
+
     }
+
+
+
+    .nav-right input {
+
+        width: 110px;
+
+        padding: 7px 10px;
+
+    }
+
+
+
+    .login-btn {
+
+        padding: 7px 12px;
+
+    }
+
+
 
     .hero {
-        height: 290px;
+
+        min-height: 420px;
+
+        padding: 85px 5% 40px;
+
     }
 
+
+
     .hero h1 {
-        font-size: 22px;
+
+        font-size: 30px;
+
+        margin: 10px 0;
+
     }
+
+
+
+    .hero p {
+
+        font-size: 13px;
+
+    }
+
+
+
+    /* Movie grid: 2 columns on small phones */
+
+    .movie-container {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 10px;
+
+    }
+
+
+
+    .movie-card .poster {
+
+        height: 190px;
+
+    }
+
+
+
+    .section-heading h2 {
+
+        font-size: 16px;
+
+    }
+
+
+
+    main {
+
+        padding: 12px 4%;
+
+    }
+
+
+
 }
+
