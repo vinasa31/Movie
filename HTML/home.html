@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIBEPLAY - Watch Movies Online</title>
+
+    <link rel="stylesheet" href="/STYLE/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">VIBE<span>PLAY</span></div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#movies">Movies</a>
+            <a href="#dramas">Dramas</a>
+            <a href="#anime">Anime</a>
+            <a href="#popular">Popular</a>
+        </nav>
+
+        <div class="nav-right">
+            <input type="text" id="searchInput"
+                   placeholder="Search movies...">
+            <button class="login-btn">Login</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <span class="tag">FEATURED SERIES</span>
+
+            <h1>THE WORLD<br>BEYOND US</h1>
+
+            <p>
+                A mysterious journey begins when two strangers
+                discover a secret that changes their lives forever.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="watch-btn" onclick="watchFeatured()">
+                    ▶ Watch Now
+                </button>
+
+                <button class="info-btn" onclick="showFeaturedInfo()">
+                    More Info
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Trending Movies -->
+    <main>
+
+        <section class="movie-section" id="popular">
+            <div class="section-heading">
+                <h2>🔥 Trending Now</h2>
+                <a href="#">View All →</a>
+            </div>
+
+            <div class="movie-container" id="trendingMovies"></div>
+        </section>
+
+        <!-- Movies -->
+        <section class="movie-section" id="movies">
+            <div class="section-heading">
+                <h2>🎬 Popular Movies</h2>
+                <a href="#">View All →</a>
+            </div>
+
+            <div class="movie-container" id="movieList"></div>
+        </section>
+
+        <!-- Dramas -->
+        <section class="movie-section" id="dramas">
+            <div class="section-heading">
+                <h2>❤️ Popular Dramas</h2>
+                <a href="#">View All →</a>
+            </div>
+
+            <div class="movie-container" id="dramaList"></div>
+        </section>
+
+        <!-- Anime -->
+        <section class="movie-section" id="anime">
+            <div class="section-heading">
+                <h2>⚡ Anime Selection</h2>
+                <a href="#">View All →</a>
+            </div>
+
+            <div class="movie-container" id="animeList"></div>
+        </section>
+
+    </main>
+
+    <!-- Movie Information Popup -->
+    <div class="modal" id="movieModal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal()">✕</button>
+
+            <img id="modalImage" src="" alt="Movie poster">
+
+            <div class="modal-details">
+                <h2 id="modalTitle"></h2>
+                <p id="modalCategory"></p>
+                <p id="modalDescription"></p>
+
+                <button class="watch-btn" onclick="watchFeatured()">
+                    ▶ Watch Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <h2>VIBEPLAY</h2>
+        <p>Discover your next favorite movie and drama.</p>
+        <p>© 2026 VIBEPLAY. All rights reserved.</p>
+    </footer>
+
+    <script src="/JS/script.js"></script>
+
+</body>
+</html>
