@@ -95,7 +95,7 @@
           "rating": 8.8,
           "description": "After breaking the mysterious One Wish Willow to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
           "image": "IMG/Obsse.jpg",
-          "year": null,
+          "year": 2026,
           "genre": [
             "Horror",
             "Movie"
@@ -109,7 +109,7 @@
           "rating": 9.1,
           "description": "A young woman's hilariously confessional voicemails to her late sister are unknowingly redirected to a stranger, who begins to fall in love from afar.",
           "image": "IMG/voicemail.jpg",
-          "year": null,
+          "year": 2026,
           "genre": [
             "Romantic Comedy",
             "Movie"
@@ -118,12 +118,12 @@
         },
         {
           "id": 8,
-          "title": "Twinkling Watermelon",
-          "category": "Romance • Drama",
+          "title": "Anyone But You",
+          "category": "Romance • Movie",
           "rating": 8.6,
-          "description": "A boy living a double life as a model student and band member travels through time and meets his 18-year-old father. They build a friendship and share experiences.",
-          "image": "IMG/Twinkling.jpg",
-          "year": null,
+          "description": "After an amazing first date, Bea and Ben's fiery attraction turns ice-cold--until they find themselves unexpectedly reunited at a wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
+          "image": "IMG/Anyonebutyou.jpg",
+          "year": 2023,
           "genre": [
             "Romance",
             "Drama"
@@ -132,28 +132,28 @@
         },
         {
           "id": 9,
-          "title": "Twenty Five Twenty One",
-          "category": "Romance • Drama",
+          "title": "Odyssey",
+          "category": "Action | Adventure • Movie",
           "rating": 9.3,
-          "description": "A teen fencer pursues big ambitions and meets a hardworking young man seeking to rebuild his life. Their relationship grows as they move through different stages of life.",
-          "image": "IMG/2521.jpg",
-          "year": null,
+          "description": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way.",
+          "image": "IMG/Odyssey.jpg",
+          "year": 2026,
           "genre": [
-            "Romance",
+            "Movie",
             "Drama"
           ],
           "cast": []
         },
         {
           "id": 10,
-          "title": "Lost in Dreams",
-          "category": "Fantasy • Movie",
+          "title": "Spider-Man: Across the Spider-Verse",
+          "category": "Aniamtion • Movie",
           "rating": 8.9,
-          "description": "A fantasy world beyond imagination.",
-          "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=500",
-          "year": null,
+          "description": "Traveling across the multiverse, Miles Morales meets a new team of Spider-People, made up of heroes from different dimensions. But when the heroes clash over how to deal with a new threat, Miles finds himself at a crossroads.",
+          "image": "IMG/Spiderman.jpg",
+          "year": 2023,
           "genre": [
-            "Fantasy",
+            "Animation",
             "Movie"
           ],
           "cast": []
