@@ -118,44 +118,42 @@
         },
         {
           "id": 8,
-          "title": "Spider-Man: Across the Spider-Verse",
-          "category": "Animation • Drama",
+          "title": "Twinkling Watermelon",
+          "category": "Romance • Drama",
           "rating": 8.6,
-          "description": "Traveling across the multiverse, Miles Morales meets a new team of Spider-People, made up of heroes from different dimensions. But when the heroes clash over how to deal with a new threat, Miles finds himself at a crossroads.",
-          "image": "IMG/Spiderman.jpg",
+          "description": "A boy living a double life as a model student and band member travels through time and meets his 18-year-old father. They build a friendship and share experiences.",
+          "image": "IMG/Twinkling.jpg",
           "year": null,
           "genre": [
-            "Animation",
-            "Movie"
+            "Romance",
+            "Drama"
           ],
           "cast": []
         },
-        
         {
           "id": 9,
-          "title": "The Odyssey",
-          "category": "Action • Drama",
+          "title": "Twenty Five Twenty One",
+          "category": "Romance • Drama",
           "rating": 9.3,
-          "description": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way.",
-          "image": "IMG/Odyssey.jpg",
+          "description": "A teen fencer pursues big ambitions and meets a hardworking young man seeking to rebuild his life. Their relationship grows as they move through different stages of life.",
+          "image": "IMG/2521.jpg",
           "year": null,
           "genre": [
-            "Action",
-            "Movie"
+            "Romance",
+            "Drama"
           ],
           "cast": []
         },
-
         {
           "id": 10,
-          "title": "Anyone But You",
-          "category": "Romantic Comedy • Drama",
+          "title": "Lost in Dreams",
+          "category": "Fantasy • Movie",
           "rating": 8.9,
-          "description": "After an amazing first date, Bea and Ben's fiery attraction turns ice-cold--until they find themselves unexpectedly reunited at a wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
-          "image": "IMG/Anyonebutyou.jpg",
+          "description": "A fantasy world beyond imagination.",
+          "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=500",
           "year": null,
           "genre": [
-            "Romace Comedy",
+            "Fantasy",
             "Movie"
           ],
           "cast": []
