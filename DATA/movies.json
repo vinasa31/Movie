@@ -90,14 +90,14 @@
       "movies": [
         {
           "id": 6,
-          "title": "Bloodhounds Season 2",
-          "category": "Action • Movie",
+          "title": "Obsession",
+          "category": "Horror • Movie",
           "rating": 8.8,
-          "description": "In order to pay off their debt, three daring youths jump into the money-lending business while confronting the rich and powerful who prey on the weak.",
-          "image": "IMG/bloodhound.jpg",
+          "description": "After breaking the mysterious One Wish Willow to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+          "image": "IMG/Obsse.jpg",
           "year": null,
           "genre": [
-            "Action",
+            "Horror",
             "Movie"
           ],
           "cast": []
