@@ -1,0 +1,316 @@
+{
+  "featured": {
+    "id": "featured-hidden-love",
+    "title": "Hidden Love",
+    "category": "Romance • 2023",
+    "rating": 9.5,
+    "description": "Since high school, Sang Zhi has had a crush on Duan Jiaxu. When fate brings them together again, they find a chance to embark on a sweet relationship.",
+    "image": "IMG/hiddenlove.jpg",
+    "year": 2023,
+    "genre": [
+      "Romance"
+    ],
+    "cast": []
+  },
+  "sections": [
+    {
+      "id": "trendingMovies",
+      "section": "trending",
+      "movies": [
+        {
+          "id": 1,
+          "title": "When I Meet the Moon",
+          "category": "Romance • 2026",
+          "rating": 9.2,
+          "description": "The socially anxious Yun Li applies for a postgraduate program to prove her independence. There, she reunites with Fu Shize, the genius and her high school crush.",
+          "image": "IMG/whenimeetthemoon.jpg",
+          "year": 2026,
+          "genre": [
+            "Romance"
+          ],
+          "cast": []
+        },
+        {
+          "id": 2,
+          "title": "Doctor X: Mafia in White",
+          "category": "Medical TV Shows • 2026",
+          "rating": 8.9,
+          "description": "In a hospital dominated by ego and corruption, an enigmatic but brilliant surgeon arrives — taking on seemingly impossible cases amid fierce opposition.",
+          "image": "IMG/Doctor X.jpeg",
+          "year": 2026,
+          "genre": [
+            "Medical TV Shows"
+          ],
+          "cast": []
+        },
+        {
+          "id": 3,
+          "title": "The First Frost",
+          "category": "Romance • 2025",
+          "rating": 9.5,
+          "description": "After Wen Yifan has a chance encounter with her childhood crush, complicated feelings surface when the two wind up living together.",
+          "image": "IMG/thefirstfrost.jpg",
+          "year": 2025,
+          "genre": [
+            "Romance"
+          ],
+          "cast": []
+        },
+        {
+          "id": 4,
+          "title": "How to lose a guy in 10 days",
+          "category": "Comedy Romance • 2003",
+          "rating": 8.7,
+          "description": "Ben bets his coworkers that he can make a woman fall in love with him in just 10 days. But along comes Andie, a writer with her own agenda.",
+          "image": "IMG/howtoloseaguyin10days.jpg",
+          "year": 2003,
+          "genre": [
+            "Comedy Romance"
+          ],
+          "cast": []
+        },
+        {
+          "id": 5,
+          "title": "The Early Spring",
+          "category": "Romance • 2026",
+          "rating": 9.0,
+          "description": "Fresh graduate Shang Zhitao joins a top global ad agency as a rookie. Her blunt boss Luan Nian tells her to quit on day one, but she perseveres through pressure and challenges to become a skilled professional.",
+          "image": "IMG/theearlyspring.jpg",
+          "year": 2026,
+          "genre": [
+            "Romance"
+          ],
+          "cast": []
+        }
+      ]
+    },
+    {
+      "id": "movieList",
+      "section": "movies",
+      "movies": [
+        {
+          "id": 6,
+          "title": "Bloodhounds Season 2",
+          "category": "Action • Movie",
+          "rating": 8.8,
+          "description": "In order to pay off their debt, three daring youths jump into the money-lending business while confronting the rich and powerful who prey on the weak.",
+          "image": "IMG/bloodhound.jpg",
+          "year": null,
+          "genre": [
+            "Action",
+            "Movie"
+          ],
+          "cast": []
+        },
+        {
+          "id": 7,
+          "title": "Voicemails for Isabelle",
+          "category": "Romantic Comedy • Movie",
+          "rating": 9.1,
+          "description": "A young woman's hilariously confessional voicemails to her late sister are unknowingly redirected to a stranger, who begins to fall in love from afar.",
+          "image": "IMG/voicemail.jpg",
+          "year": null,
+          "genre": [
+            "Romantic Comedy",
+            "Movie"
+          ],
+          "cast": []
+        },
+        {
+          "id": 8,
+          "title": "Twinkling Watermelon",
+          "category": "Romance • Drama",
+          "rating": 8.6,
+          "description": "A boy living a double life as a model student and band member travels through time and meets his 18-year-old father. They build a friendship and share experiences.",
+          "image": "IMG/Twinkling.jpg",
+          "year": null,
+          "genre": [
+            "Romance",
+            "Drama"
+          ],
+          "cast": []
+        },
+        {
+          "id": 9,
+          "title": "Twenty Five Twenty One",
+          "category": "Romance • Drama",
+          "rating": 9.3,
+          "description": "A teen fencer pursues big ambitions and meets a hardworking young man seeking to rebuild his life. Their relationship grows as they move through different stages of life.",
+          "image": "IMG/2521.jpg",
+          "year": null,
+          "genre": [
+            "Romance",
+            "Drama"
+          ],
+          "cast": []
+        },
+        {
+          "id": 10,
+          "title": "Lost in Dreams",
+          "category": "Fantasy • Movie",
+          "rating": 8.9,
+          "description": "A fantasy world beyond imagination.",
+          "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=500",
+          "year": null,
+          "genre": [
+            "Fantasy",
+            "Movie"
+          ],
+          "cast": []
+        }
+      ]
+    },
+    {
+      "id": "dramaList",
+      "section": "dramas",
+      "movies": [
+        {
+          "id": 11,
+          "title": "Hidden Love",
+          "category": "Romance • Chinese Drama",
+          "rating": 9.5,
+          "description": "A sweet love story between two young people.",
+          "image": "IMG/hiddenlove.jpg",
+          "year": null,
+          "genre": [
+            "Romance",
+            "Chinese Drama"
+          ],
+          "cast": []
+        },
+        {
+          "id": 12,
+          "title": "Our Secret",
+          "category": "Romance • Chinese Drama",
+          "rating": 9.2,
+          "description": "A secret friendship slowly becomes love.",
+          "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500",
+          "year": null,
+          "genre": [
+            "Romance",
+            "Chinese Drama"
+          ],
+          "cast": []
+        },
+        {
+          "id": 13,
+          "title": "Night Detective",
+          "category": "Mystery • Korean Drama",
+          "rating": 8.9,
+          "description": "A detective solves mysterious crimes.",
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500",
+          "year": null,
+          "genre": [
+            "Mystery",
+            "Korean Drama"
+          ],
+          "cast": []
+        },
+        {
+          "id": 14,
+          "title": "Forever Young",
+          "category": "Youth • Korean Drama",
+          "rating": 9.0,
+          "description": "A story about friendship, dreams and growing up.",
+          "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500",
+          "year": null,
+          "genre": [
+            "Youth",
+            "Korean Drama"
+          ],
+          "cast": []
+        },
+        {
+          "id": 15,
+          "title": "My Beautiful Life",
+          "category": "Romance • Thai Drama",
+          "rating": 8.8,
+          "description": "A young woman discovers her own happiness.",
+          "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=500",
+          "year": null,
+          "genre": [
+            "Romance",
+            "Thai Drama"
+          ],
+          "cast": []
+        }
+      ]
+    },
+    {
+      "id": "animeList",
+      "section": "anime",
+      "movies": [
+        {
+          "id": 16,
+          "title": "Magic World",
+          "category": "Fantasy • Anime",
+          "rating": 9.4,
+          "description": "A young hero discovers magical powers.",
+          "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=500",
+          "year": null,
+          "genre": [
+            "Fantasy",
+            "Anime"
+          ],
+          "cast": []
+        },
+        {
+          "id": 17,
+          "title": "Cyber Future",
+          "category": "Sci-Fi • Anime",
+          "rating": 9.1,
+          "description": "A futuristic world controlled by technology.",
+          "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500",
+          "year": null,
+          "genre": [
+            "Sci-Fi",
+            "Anime"
+          ],
+          "cast": []
+        },
+        {
+          "id": 18,
+          "title": "Blue Sky",
+          "category": "Adventure • Anime",
+          "rating": 8.9,
+          "description": "Friends begin a journey across the world.",
+          "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=500",
+          "year": null,
+          "genre": [
+            "Adventure",
+            "Anime"
+          ],
+          "cast": []
+        },
+        {
+          "id": 19,
+          "title": "Spirit Forest",
+          "category": "Fantasy • Anime",
+          "rating": 9.3,
+          "description": "A magical forest holds an ancient secret.",
+          "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=500",
+          "year": null,
+          "genre": [
+            "Fantasy",
+            "Anime"
+          ],
+          "cast": []
+        },
+        {
+          "id": 20,
+          "title": "Star Journey",
+          "category": "Adventure • Anime",
+          "rating": 9.0,
+          "description": "A journey through the stars begins.",
+          "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=500",
+          "year": null,
+          "genre": [
+            "Adventure",
+            "Anime"
+          ],
+          "cast": []
+        }
+      ]
+    }
+  ]
+}
