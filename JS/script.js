@@ -104,7 +104,7 @@ function showFeaturedInfo() {
 
             description: "Since high school, Sang Zhi has had a crush on Duan Jiaxu. When fate brings them together again, they find a chance to embark on a sweet relationship.",
 
-            image:       "../IMG/hiddenlove.jpg"
+            image:       "IMG/hiddenlove.jpg"
 
         }
 
