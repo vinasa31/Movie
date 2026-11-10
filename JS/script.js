@@ -1,8 +1,5 @@
 
-// =====================================
 // LOAD MOVIE DATA FROM JSON
-// =====================================
-
 let movieData = null;
 let allMovies = [];
 
@@ -18,7 +15,7 @@ async function loadMovies() {
 
         movieData = await response.json();
 
-        // Collect all movies from all sections
+        // Collect all movies from all sections into 1 array
         allMovies = movieData.sections.flatMap(
             section => section.movies
         );
@@ -98,8 +95,9 @@ function renderMovies(container, movies) {
         card.appendChild(cardInfo);
 
         // Open modal when clicking a card
+        // Open movie details page when clicking a card
         card.addEventListener("click", function() {
-            openModal(card);
+            window.location.href = `movie.html?id=${movie.id}`;
         });
 
         container.appendChild(card);
@@ -107,32 +105,6 @@ function renderMovies(container, movies) {
     });
 
 }
-
-
-// =====================================
-// OPEN MOVIE POPUP
-// =====================================
-
-function openModal(movie) {
-
-    const data = movie.dataset || movie;
-
-    document.getElementById("modalTitle").textContent =
-        data.title;
-
-    document.getElementById("modalCategory").textContent =
-        data.category;
-
-    document.getElementById("modalDescription").textContent =
-        data.description;
-
-    document.getElementById("modalImage").src =
-        data.image;
-
-    document.getElementById("movieModal").style.display = "flex";
-
-}
-
 
 // =====================================
 // CLOSE POPUP

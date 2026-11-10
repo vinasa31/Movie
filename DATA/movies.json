@@ -4,13 +4,18 @@
     "title": "Hidden Love",
     "category": "Romance • 2023",
     "rating": 9.5,
+    "age": "PG-13",
     "description": "Since high school, Sang Zhi has had a crush on Duan Jiaxu. When fate brings them together again, they find a chance to embark on a sweet relationship.",
     "image": "IMG/hiddenlove.jpg",
     "year": 2023,
     "genre": [
       "Romance"
     ],
-    "cast": []
+    "cast": [
+      "Zhao Lusi",
+      "Chen Zheyuan"
+    ],
+    "trailer": "https://www.imdb.com/video/vi630310681/?playlistId=tt28076458&ref_=ext_shr_lnk"
   },
   "sections": [
     {
@@ -22,65 +27,96 @@
           "title": "When I Meet the Moon",
           "category": "Romance • 2026",
           "rating": 9.2,
+          "age": "PG-13",
           "description": "The socially anxious Yun Li applies for a postgraduate program to prove her independence. There, she reunites with Fu Shize, the genius and her high school crush.",
           "image": "IMG/whenimeetthemoon.jpg",
+          "poster":"",
           "year": 2026,
           "genre": [
             "Romance"
           ],
-          "cast": []
+          "cast": [
+            "Lin Yi",
+            "Lu Yuxiao"
+          ],
+          "trailer": "https://www.imdb.com/video/vi271173145/?playlistId=tt28036189&ref_=ext_shr_lnk"
         },
         {
           "id": 2,
           "title": "Doctor X: Mafia in White",
           "category": "Medical TV Shows • 2026",
           "rating": 8.9,
+          "age": "TV-14",
           "description": "In a hospital dominated by ego and corruption, an enigmatic but brilliant surgeon arrives — taking on seemingly impossible cases amid fierce opposition.",
           "image": "IMG/Doctor X.jpeg",
+          "poster":"IMG/X.jpg",
           "year": 2026,
           "genre": [
             "Medical TV Shows"
           ],
-          "cast": []
+          "cast": [
+            "Kim Jiwon",
+            "Lee Jeongeun",
+            "Son Hyeonju"
+          ],
+          "trailer": "https://www.imdb.com/video/vi2180041241/?playlistId=tt39328047&ref_=ext_shr_lnk"
         },
         {
           "id": 3,
           "title": "The First Frost",
           "category": "Romance • 2025",
           "rating": 9.5,
+          "age": "PG-13",
           "description": "After Wen Yifan has a chance encounter with her childhood crush, complicated feelings surface when the two wind up living together.",
           "image": "IMG/thefirstfrost.jpg",
+          "poster":"",
           "year": 2025,
           "genre": [
             "Romance"
           ],
-          "cast": []
+          "cast": [
+            "Bai Jingting",
+            "Zhang Rounan"
+          ],
+          "trailer": "https://www.imdb.com/video/vi3429484825/?playlistId=tt31887832&ref_=ext_shr_lnk"
         },
         {
           "id": 4,
           "title": "How to lose a guy in 10 days",
           "category": "Comedy Romance • 2003",
           "rating": 8.7,
+          "age": "12A",
           "description": "Ben bets his coworkers that he can make a woman fall in love with him in just 10 days. But along comes Andie, a writer with her own agenda.",
           "image": "IMG/howtoloseaguyin10days.jpg",
+          "poster":"IMG/10days.jpg",
           "year": 2003,
           "genre": [
             "Comedy Romance"
           ],
-          "cast": []
+          "cast": [
+            "Kate Hudson",
+            "Matthew McConaughey"
+          ],
+          "trailer": "https://www.imdb.com/video/vi179175705/?playlistId=tt0251127&ref_=ext_shr_lnk"
         },
         {
           "id": 5,
           "title": "The Early Spring",
           "category": "Romance • 2026",
           "rating": 9.0,
+          "age": "PG-13",
           "description": "Fresh graduate Shang Zhitao joins a top global ad agency as a rookie. Her blunt boss Luan Nian tells her to quit on day one, but she perseveres through pressure and challenges to become a skilled professional.",
           "image": "IMG/theearlyspring.jpg",
+          "poster":"IMG/Earlyspring.jpg",
           "year": 2026,
           "genre": [
             "Romance"
           ],
-          "cast": []
+          "cast": [
+            "Jing Boran",
+            "Sun Qian"
+          ],
+          "trailer": "https://www.imdb.com/video/vi1118489113/?playlistId=tt37884717&ref_=ext_shr_lnk"
         }
       ]
     },
@@ -93,70 +129,102 @@
           "title": "Obsession",
           "category": "Horror • Movie",
           "rating": 8.8,
+          "age": "16+",
           "description": "After breaking the mysterious One Wish Willow to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
           "image": "IMG/Obsse.jpg",
+          "poster":"IMG/Obss.jpg",
           "year": 2026,
           "genre": [
             "Horror",
             "Movie"
           ],
-          "cast": []
+          "cast": [
+            "Michael Johnston",
+            "Inde Navarrette"
+          ],
+          "trailer":"https://www.imdb.com/video/vi2176961305/?playlistId=tt37287335&ref_=ext_shr_lnk"
         },
         {
           "id": 7,
           "title": "Voicemails for Isabelle",
           "category": "Romantic Comedy • Movie",
           "rating": 9.1,
+          "age": "PG-13",
           "description": "A young woman's hilariously confessional voicemails to her late sister are unknowingly redirected to a stranger, who begins to fall in love from afar.",
           "image": "IMG/voicemail.jpg",
+          "poster":"IMG/voicem.jpg",
           "year": 2026,
           "genre": [
             "Romantic Comedy",
             "Movie"
           ],
-          "cast": []
+          "cast": [
+            "Zoey Deutch",
+            "Nick Robinson"
+          ],
+          "trailer": "https://www.imdb.com/video/vi671468313/?playlistId=tt10375624&ref_=ext_shr_lnk"
         },
         {
           "id": 8,
           "title": "Anyone But You",
           "category": "Romance • Movie",
           "rating": 8.6,
+          "age": "PG-13",
           "description": "After an amazing first date, Bea and Ben's fiery attraction turns ice-cold--until they find themselves unexpectedly reunited at a wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
           "image": "IMG/Anyonebutyou.jpg",
+          "poster":"IMG/any1butu.jpg",
           "year": 2023,
           "genre": [
             "Romance",
             "Drama"
           ],
-          "cast": []
+          "cast": [
+            "Sydney Sweeny",
+            "Glen Powel"
+          ],
+          "trailer": "https://www.imdb.com/video/vi3341403929/?playlistId=tt26047818&ref_=ext_shr_lnk"
         },
         {
           "id": 9,
           "title": "Odyssey",
           "category": "Action | Adventure • Movie",
           "rating": 9.3,
+          "age": "PG-13",
           "description": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way.",
           "image": "IMG/Odyssey.jpg",
+          "poster":"",
           "year": 2026,
           "genre": [
-            "Movie",
-            "Drama"
+            "Fantasy",
+            "Movie"
           ],
-          "cast": []
+          "cast": [
+            "Matt Damon",
+            "Tom Holland",
+            "Anne Hathaway"
+          ],
+          "trailer": "https://www.imdb.com/video/vi2555431705/?playlistId=tt33764258&ref_=ext_shr_lnk"
         },
         {
           "id": 10,
           "title": "Spider-Man: Across the Spider-Verse",
           "category": "Aniamtion • Movie",
           "rating": 8.9,
+          "age": "10+",
           "description": "Traveling across the multiverse, Miles Morales meets a new team of Spider-People, made up of heroes from different dimensions. But when the heroes clash over how to deal with a new threat, Miles finds himself at a crossroads.",
           "image": "IMG/Spiderman.jpg",
+          "poster":"IMG/spider.jpg",
           "year": 2023,
           "genre": [
             "Animation",
             "Movie"
           ],
-          "cast": []
+          "cast": [
+            "Shameik Morre",
+            "Hailee Steinfeld",
+            "Brian Tyree Henry"
+          ],
+          "trailer": "https://www.imdb.com/video/vi207143961/?playlistId=tt9362722&ref_=ext_shr_lnk"
         }
       ]
     },
@@ -169,22 +237,30 @@
           "title": "Hidden Love",
           "category": "Romance • Chinese Drama",
           "rating": 9.5,
+          "age": "PG-13",
           "description": "A sweet love story between two young people.",
           "image": "IMG/hiddenlove.jpg",
+          "poster":"",
           "year": null,
           "genre": [
             "Romance",
             "Chinese Drama"
           ],
-          "cast": []
+          "cast": [
+            "Zhao Lusi",
+            "Chen Zheyuan"
+          ],
+          "trailer": "https://www.imdb.com/video/vi630310681/?playlistId=tt28076458&ref_=ext_shr_lnk"
         },
         {
           "id": 12,
           "title": "Our Secret",
           "category": "Romance • Chinese Drama",
           "rating": 9.2,
+          "age": "PG-13",
           "description": "A secret friendship slowly becomes love.",
           "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500",
+          "poster":"",
           "year": null,
           "genre": [
             "Romance",
@@ -197,8 +273,10 @@
           "title": "Night Detective",
           "category": "Mystery • Korean Drama",
           "rating": 8.9,
+          "age": "PG-13",
           "description": "A detective solves mysterious crimes.",
           "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500",
+          "poster":"",
           "year": null,
           "genre": [
             "Mystery",
@@ -211,8 +289,10 @@
           "title": "Forever Young",
           "category": "Youth • Korean Drama",
           "rating": 9.0,
+          "age": "PG-13",
           "description": "A story about friendship, dreams and growing up.",
           "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500",
+          "poster":"",
           "year": null,
           "genre": [
             "Youth",
@@ -225,8 +305,10 @@
           "title": "My Beautiful Life",
           "category": "Romance • Thai Drama",
           "rating": 8.8,
+          "age": "PG-13",
           "description": "A young woman discovers her own happiness.",
           "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=500",
+          "poster":"",
           "year": null,
           "genre": [
             "Romance",
@@ -245,8 +327,10 @@
           "title": "Magic World",
           "category": "Fantasy • Anime",
           "rating": 9.4,
+          "age": "PG-13",
           "description": "A young hero discovers magical powers.",
           "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=500",
+          "poster":"",
           "year": null,
           "genre": [
             "Fantasy",
@@ -259,8 +343,10 @@
           "title": "Cyber Future",
           "category": "Sci-Fi • Anime",
           "rating": 9.1,
+          "age": "PG-13",
           "description": "A futuristic world controlled by technology.",
           "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500",
+          "poster":"",
           "year": null,
           "genre": [
             "Sci-Fi",
@@ -273,8 +359,10 @@
           "title": "Blue Sky",
           "category": "Adventure • Anime",
           "rating": 8.9,
+          "age": "PG-13",
           "description": "Friends begin a journey across the world.",
           "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=500",
+          "poster":"",
           "year": null,
           "genre": [
             "Adventure",
@@ -287,8 +375,10 @@
           "title": "Spirit Forest",
           "category": "Fantasy • Anime",
           "rating": 9.3,
+          "age": "PG-13",
           "description": "A magical forest holds an ancient secret.",
           "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=500",
+          "poster":"",
           "year": null,
           "genre": [
             "Fantasy",
@@ -301,8 +391,10 @@
           "title": "Star Journey",
           "category": "Adventure • Anime",
           "rating": 9.0,
+          "age": "PG-13",
           "description": "A journey through the stars begins.",
           "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=500",
+          "poster":"",
           "year": null,
           "genre": [
             "Adventure",

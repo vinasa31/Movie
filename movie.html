@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Details | TRIOFLEX</title>
+
+    <link rel="stylesheet" href="STYLE/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">TRIO<span>FLEX</span></div>
+        <nav>
+
+            <a href="home.html">Home</a>
+
+            <a href="home.html#popular">Trending</a>
+
+            <a href="home.html#movies">Movies</a>
+
+            <a href="home.html#dramas">Dramas</a>
+
+            <a href="home.html#anime">Anime</a>
+
+        </nav>
+
+        <!-- <div class="nav-right">
+
+            <input type="text" id="searchInput" placeholder="Search movies...">
+
+            <button class="login-btn">Login</button>
+
+        </div> -->
+
+    </header>
+
+    <main class="movie-detail">
+
+        <div class="movie-poster">
+            <img id="moviePoster"  alt="Movie background">
+        </div>
+
+        <div class="movie-detail-overlay"></div>
+        
+        <section class="movie-information">
+
+            <h1 id="movieTitle"></h1>
+
+            <div class="movie-meta">
+                <span id="movieRating"></span>
+                <span id="movieYear"></span>
+                <span id="movieGenre"></span>
+                <span id="movieAgeRating"></span>
+            </div>
+
+            <!-- Movie Description -->
+            <p id="moviePlot"></p>
+
+        <!-- Cast directly below description -->
+        <div class="movie-cast-section">
+            <h2>Cast</h2>
+           <div id="movieCast"></div>
+        </div>
+
+        <div class="trailer-section">
+            <h2>Official Trailer</h2>
+
+            <a id="movieTrailer"
+               class="trailer-link"
+               target="_blank"
+               rel="noopener noreferrer">
+                Watch Trailer on IMDb
+            </a>
+        </div>
+        </section>
+
+    </main>
+
+
+    <script src="JS/detail.js"></script>
+
+</body>
+</html>
