@@ -5,6 +5,7 @@
     "category": "Romance • 2023",
     "rating": 9.5,
     "age": "PG-13",
+    "episode":"26 EP",
     "description": "Since high school, Sang Zhi has had a crush on Duan Jiaxu. When fate brings them together again, they find a chance to embark on a sweet relationship.",
     "image": "IMG/hiddenlove.jpg",
     "year": 2023,
@@ -28,6 +29,7 @@
           "category": "Romance • 2026",
           "rating": 9.2,
           "age": "PG-13",
+          "episode":"30 EP",
           "description": "The socially anxious Yun Li applies for a postgraduate program to prove her independence. There, she reunites with Fu Shize, the genius and her high school crush.",
           "image": "IMG/whenimeetthemoon.jpg",
           "poster":"",
@@ -47,6 +49,7 @@
           "category": "Medical TV Shows • 2026",
           "rating": 8.9,
           "age": "TV-14",
+          "episode":"14 EP",
           "description": "In a hospital dominated by ego and corruption, an enigmatic but brilliant surgeon arrives — taking on seemingly impossible cases amid fierce opposition.",
           "image": "IMG/Doctor X.jpeg",
           "poster":"IMG/X.jpg",
@@ -67,6 +70,7 @@
           "category": "Romance • 2025",
           "rating": 9.5,
           "age": "PG-13",
+          "episode":"32 EP",
           "description": "After Wen Yifan has a chance encounter with her childhood crush, complicated feelings surface when the two wind up living together.",
           "image": "IMG/thefirstfrost.jpg",
           "poster":"",
@@ -86,6 +90,7 @@
           "category": "Comedy Romance • 2003",
           "rating": 8.7,
           "age": "12A",
+          "episode":"1 EP",
           "description": "Ben bets his coworkers that he can make a woman fall in love with him in just 10 days. But along comes Andie, a writer with her own agenda.",
           "image": "IMG/howtoloseaguyin10days.jpg",
           "poster":"IMG/10days.jpg",
@@ -105,6 +110,7 @@
           "category": "Romance • 2026",
           "rating": 9.0,
           "age": "PG-13",
+          "episode":"24 EP",
           "description": "Fresh graduate Shang Zhitao joins a top global ad agency as a rookie. Her blunt boss Luan Nian tells her to quit on day one, but she perseveres through pressure and challenges to become a skilled professional.",
           "image": "IMG/theearlyspring.jpg",
           "poster":"IMG/Earlyspring.jpg",
@@ -130,6 +136,7 @@
           "category": "Horror • Movie",
           "rating": 8.8,
           "age": "16+",
+          "episode":"1 EP",
           "description": "After breaking the mysterious One Wish Willow to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
           "image": "IMG/Obsse.jpg",
           "poster":"IMG/Obss.jpg",
@@ -150,6 +157,7 @@
           "category": "Romantic Comedy • Movie",
           "rating": 9.1,
           "age": "PG-13",
+          "episode":"1 EP",
           "description": "A young woman's hilariously confessional voicemails to her late sister are unknowingly redirected to a stranger, who begins to fall in love from afar.",
           "image": "IMG/voicemail.jpg",
           "poster":"IMG/voicem.jpg",
@@ -170,6 +178,7 @@
           "category": "Romance • Movie",
           "rating": 8.6,
           "age": "PG-13",
+          "episode":"1 EP",
           "description": "After an amazing first date, Bea and Ben's fiery attraction turns ice-cold--until they find themselves unexpectedly reunited at a wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
           "image": "IMG/Anyonebutyou.jpg",
           "poster":"IMG/any1butu.jpg",
@@ -190,6 +199,7 @@
           "category": "Action | Adventure • Movie",
           "rating": 9.3,
           "age": "PG-13",
+          "episode":"1 EP",
           "description": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way.",
           "image": "IMG/Odyssey.jpg",
           "poster":"",
@@ -211,6 +221,7 @@
           "category": "Aniamtion • Movie",
           "rating": 8.9,
           "age": "10+",
+          "episode":"1 EP",
           "description": "Traveling across the multiverse, Miles Morales meets a new team of Spider-People, made up of heroes from different dimensions. But when the heroes clash over how to deal with a new threat, Miles finds himself at a crossroads.",
           "image": "IMG/Spiderman.jpg",
           "poster":"IMG/spider.jpg",
@@ -238,6 +249,7 @@
           "category": "Romance • Chinese Drama",
           "rating": 9.5,
           "age": "PG-13",
+          "episode":"26 EP",
           "description": "A sweet love story between two young people.",
           "image": "IMG/hiddenlove.jpg",
           "poster":"",
@@ -254,67 +266,75 @@
         },
         {
           "id": 12,
-          "title": "Our Secret",
-          "category": "Romance • Chinese Drama",
-          "rating": 9.2,
+          "title": "Bloodhounds Season 2",
+          "category": "Action • Korean Drama",
+          "rating": 8.2,
+          "age": "16+",
+          "episode":"7 EP",
+          "description": "Faced with ruthless foes with a violent thirst, two young boxers band together — risking life and limb to bring justice and protect their loved ones.",
+          "image": "IMG/Bh1.jpg",
+          "poster":"IMG/bloodhound.jpg",
+          "year": 2026,
+          "genre": [
+            "Action",
+            "Korean Drama"
+          ],
+          "cast": ["Woo Do‑hwan","Lee Sang-yi","Jung Ji-hoon"],
+          "trailer": "https://www.imdb.com/video/vi634047257/?ref_=ext_shr_lnk"
+        },
+        {
+          "id": 13,
+          "title": "Lovely Runner",
+          "category": "Romantic Comedy • Korean Drama",
+          "rating": 8.5,
           "age": "PG-13",
-          "description": "A secret friendship slowly becomes love.",
-          "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500",
-          "poster":"",
-          "year": null,
+          "episode":"16 EP",
+          "description": "Right after top star Ryoo Seon-jae ends his life, his top fan Im Sol somehow time-travels back to when they were in high school and tries to protect him. A fantasy romance unfolds where people who missed each other in time finally meet.",
+          "image": "IMG/lovely.jpg",
+          "poster":"IMG/runner.jpg",
+          "year": 2024,
+          "genre": [
+            "Romantic Comedy",
+            "Korean Drama"
+          ],
+          "cast": [],
+          "trailer": "https://www.imdb.com/video/vi634047257/?playlistId=tt26315487&ref_=ext_shr_lnkhttps://www.imdb.com/video/vi250791449/?playlistId=tt31324295&ref_=ext_shr_lnk"
+        },
+        {
+          "id": 14,
+          "title": "Where the Mask Ends",
+          "category": "Romance • Chinese Drama",
+          "rating": 7.9,
+          "age": "16+",
+          "episode":"30 EP",
+          "description": "Wei Rao was a young noblewoman from the residence of the Count of Cheng'an. Due to family vicissitudes, she was forced to leave her home at an early age. Despite the difficulties, she took on all the responsibility with love and braveness.",
+          "image": "IMG/mask.jpg",
+          "poster":"IMG/mask2.jpg",
+          "year": 2026,
           "genre": [
             "Romance",
             "Chinese Drama"
           ],
-          "cast": []
-        },
-        {
-          "id": 13,
-          "title": "Night Detective",
-          "category": "Mystery • Korean Drama",
-          "rating": 8.9,
-          "age": "PG-13",
-          "description": "A detective solves mysterious crimes.",
-          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500",
-          "poster":"",
-          "year": null,
-          "genre": [
-            "Mystery",
-            "Korean Drama"
-          ],
-          "cast": []
-        },
-        {
-          "id": 14,
-          "title": "Forever Young",
-          "category": "Youth • Korean Drama",
-          "rating": 9.0,
-          "age": "PG-13",
-          "description": "A story about friendship, dreams and growing up.",
-          "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500",
-          "poster":"",
-          "year": null,
-          "genre": [
-            "Youth",
-            "Korean Drama"
-          ],
-          "cast": []
+          "cast": ["Tian Xiwei","Yan An", "Wang Yinan","Yin Wenxuan"],
+          "trailer":"https://www.netflix.com/kh/title/83150089?source=imdb&fromWatch=true"
         },
         {
           "id": 15,
-          "title": "My Beautiful Life",
-          "category": "Romance • Thai Drama",
+          "title": "Blossom",
+          "category": "Romance • Chinsese Drama",
           "rating": 8.8,
           "age": "PG-13",
-          "description": "A young woman discovers her own happiness.",
-          "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=500",
-          "poster":"",
-          "year": null,
+          "episode":"34 EP",
+          "description": "Dou Zhao, disillusioned with love and family, moves to a remote village to protect her family. She helps Song Mo protect an orphaned descendant, and they form a trusting alliance.",
+          "image": "IMG/Blossomimg.jpg",
+          "poster":"IMG/blossomposter.jpg",
+          "year": 2024,
           "genre": [
             "Romance",
-            "Thai Drama"
+            "Chinese Drama"
           ],
-          "cast": []
+          "cast": ["Li Yunrui", "Meng Ziyi","Kong Xueer"],
+          "trailer":"https://v.mydramalist.com/306/3069e0434a72c4ca9efd86b81a43957c.mp4"
         }
       ]
     },
@@ -324,83 +344,93 @@
       "movies": [
         {
           "id": 16,
-          "title": "Magic World",
-          "category": "Fantasy • Anime",
-          "rating": 9.4,
-          "age": "PG-13",
-          "description": "A young hero discovers magical powers.",
-          "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=500",
-          "poster":"",
-          "year": null,
+          "title": "Shingeki no Kyojin",
+          "category": "Action • Anime",
+          "rating": 8.5,
+          "age": "17+",
+          "episode":"25 EP",
+          "description": "In a world where humanity shelters behind towering walls from man-eating Titans, a determined teen joins the elite Survey Corps to fight the giants and uncover the secrets of their origin.",
+          "image": "IMG/attack on titan.jpg",
+          "poster":"IMG/titan.jpg",
+          "year": 2023,
           "genre": [
-            "Fantasy",
+            "Action",
             "Anime"
           ],
-          "cast": []
+          "cast": [],
+          "trailer":"https://www.imdb.com/video/vi3191457561/?playlistId=tt2560140&ref_=ext_shr_lnk"
         },
         {
           "id": 17,
-          "title": "Cyber Future",
-          "category": "Sci-Fi • Anime",
-          "rating": 9.1,
+          "title": "Kaoru Hana wa Rin to Saku",
+          "category": "Romance • Anime",
+          "rating": 8.4,
           "age": "PG-13",
-          "description": "A futuristic world controlled by technology.",
-          "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500",
-          "poster":"",
-          "year": null,
+          "episode":"13 EP",
+          "description": "An elite girls' school resides next to a boys' school for delinquents. One day, two students from each school, Kaoruko and Rintaro, meet and develop a connection.",
+          "image": "IMG/waguri.jpg",
+          "poster":"IMG/waguri2.jpg",
+          "year": 2025,
           "genre": [
-            "Sci-Fi",
+            "Romance",
             "Anime"
           ],
-          "cast": []
+          "cast": [],
+          "trailer":"https://www.imdb.com/video/vi1945290777/?playlistId=tt36592690&ref_=ext_shr_lnk"
         },
         {
           "id": 18,
-          "title": "Blue Sky",
+          "title": "Naruto",
           "category": "Adventure • Anime",
-          "rating": 8.9,
+          "rating": 8.0,
           "age": "PG-13",
-          "description": "Friends begin a journey across the world.",
-          "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=500",
-          "poster":"",
-          "year": null,
+          "episode":"220",
+          "description": "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.",
+          "image": "IMG/naruto.jpg",
+          "poster":"IMG/naruto.jpg",
+          "year": 2002,
           "genre": [
             "Adventure",
             "Anime"
           ],
-          "cast": []
+          "cast": [],
+          "trailer":"https://www.imdb.com/video/vi3113746713/?playlistId=tt0409591&ref_=ext_shr_lnk"
         },
         {
           "id": 19,
-          "title": "Spirit Forest",
-          "category": "Fantasy • Anime",
-          "rating": 9.3,
-          "age": "PG-13",
-          "description": "A magical forest holds an ancient secret.",
-          "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=500",
-          "poster":"",
-          "year": null,
+          "title": "Jujutsu Kaisen",
+          "category": "Fction • Anime",
+          "rating": 8.4,
+          "age": "17+",
+          "episode":"63",
+          "description": "After swallowing a cursed relic, kindhearted teenager Yuji Itadori becomes host to the King of Curses and joins a secret school of sorcerers battling monsters born from humanity's darkest emotions.",
+          "image": "IMG/jujutsu.jpg",
+          "poster":"IMG/jujutsu.jpg",
+          "year": 2020,
           "genre": [
-            "Fantasy",
+            "Action",
             "Anime"
           ],
-          "cast": []
+          "cast": [],
+          "trailer":"https://www.imdb.com/video/vi556582937/?playlistId=tt12343534&ref_=ext_shr_lnk"
         },
         {
           "id": 20,
-          "title": "Star Journey",
+          "title": "SKimi no Na wa.",
           "category": "Adventure • Anime",
           "rating": 9.0,
           "age": "PG-13",
-          "description": "A journey through the stars begins.",
-          "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=500",
-          "poster":"",
-          "year": null,
+          "episode":"",
+          "description":"Two teenagers, a city boy in Tokyo and a girl in rural Japan, mysteriously begin swapping bodies, forging a connection that sends them searching for one another.",
+          "image":"IMG/name.jpg",
+          "poster":"IMG/name.jpg",
+          "year": 2020,
           "genre": [
             "Adventure",
             "Anime"
           ],
-          "cast": []
+          "cast": [],
+          "trailer":"https://www.imdb.com/video/vi4138781209/?playlistId=tt5311514&ref_=ext_shr_lnk"
         }
       ]
     }

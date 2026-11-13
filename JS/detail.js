@@ -40,10 +40,20 @@ async function loadMovieDetails() {
         // ==============================
         // DISPLAY MOVIE INFORMATION
         // ==============================
-        document.getElementById("movieTitle")
-            .textContent = movie.title || "Unknown Movie";
+        document.getElementById("movieTitle").textContent = movie.title || "Unknown Movie";
 
         document.getElementById("moviePoster").src = movie.poster || movie.image;
+
+         /* ==============================
+           SMALL MOVIE POSTER
+        ============================== */
+
+        const movieCover = document.getElementById("movieCover");
+
+        if (movieCover) {
+            movieCover.src = movie.poster || movie.image || "";
+        }
+
 
         document.getElementById("movieYear")
             .textContent = movie.year || "Year unavailable";
@@ -63,6 +73,20 @@ async function loadMovieDetails() {
 
         document.getElementById("moviePlot")
             .textContent = movie.description || "No description available.";
+
+        const episodeElement = document.getElementById("movieEpisodes");
+
+        if (movie.episode) {
+
+            episodeElement.textContent = movie.episode;
+
+            episodeElement.style.display = "inline-flex";
+
+        } else {
+
+        episodeElement.style.display = "none";
+
+        }
         // ==============================
         // DISPLAY CAST MEMBERS
         // ==============================
