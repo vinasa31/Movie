@@ -145,17 +145,121 @@ function showFeaturedInfo() {
 
 }
 
+// =====================================
+// OPEN MOVIE INFO POPUP
+// =====================================
+
+function openModal(movie) {
+
+    document.getElementById("modalImage").src =
+        movie.image;
+
+    document.getElementById("modalTitle").textContent =
+        movie.title;
+
+    document.getElementById("modalCategory").textContent =
+        movie.category;
+
+    document.getElementById("modalDescription").textContent =
+        movie.description;
+
+    document.getElementById("movieModal").style.display =
+        "flex";
+
+}
+const featuredMovie = allMovies.find(movie =>
+    movie.id === movieData.featured.id
+);
 
 // =====================================
 // WATCH BUTTON
 // =====================================
 
-function watchFeatured() {
+function showFeaturedInfo() {
 
-    alert("Welcome to VIBEPLAY! Video player coming soon.");
+    if (!movieData || !movieData.featured) {
+        return;
+    }
+
+    // Find Hidden Love in all movie sections
+    const featuredMovie = allMovies.find(movie =>
+        movie.id === movieData.featured.id
+    );
+
+    if (featuredMovie) {
+
+        openModal(featuredMovie);
+
+    } else {
+
+        // Use featured information if not found in movie lists
+        openModal(movieData.featured);
+
+    }
 
 }
 
+
+// =====================================
+// WATCH FEATURED MOVIE TRAILER
+// =====================================
+
+// =====================================
+// FEATURED MOVIE (HERO)
+// =====================================
+
+function showFeaturedInfo() {
+
+    if (!movieData || !movieData.featured) {
+        return;
+    }
+
+    // Find Hidden Love in all movie sections
+    const featuredMovie = allMovies.find(movie =>
+        movie.id === movieData.featured.id
+    );
+
+    if (featuredMovie) {
+
+        openModal(featuredMovie);
+
+    } else {
+
+        // Use featured information if not found in movie lists
+        openModal(movieData.featured);
+
+    }
+
+}
+
+
+// =====================================
+// WATCH FEATURED TRAILER
+// =====================================
+
+function watchFeatured() {
+
+    if (!movieData || !movieData.featured) {
+        return;
+    }
+
+    const trailer = movieData.featured.trailer;
+
+    if (trailer) {
+
+        window.open(
+            trailer,
+            "_blank",
+            "noopener,noreferrer"
+        );
+
+    } else {
+
+        alert("Trailer is not available.");
+
+    }
+
+}
 
 // =====================================
 // SEARCH MOVIES
@@ -164,10 +268,10 @@ function watchFeatured() {
 const searchInput = document.getElementById("searchInput");
 
 const sectionHeadings = {
-    popular: "🔥 Trending Now",
-    movies: "🎬 Popular Movies",
-    dramas: "❤️ Popular Dramas",
-    anime: "⚡ Anime Selection"
+    popular: "Trending Now",
+    movies: "Popular Movies",
+    dramas: "Popular Dramas",
+    anime: "Popular Anime"
 };
 
 searchInput.addEventListener("input", function() {
