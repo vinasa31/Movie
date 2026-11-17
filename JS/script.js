@@ -262,6 +262,92 @@ function watchFeatured() {
 }
 
 // =====================================
+// FILTER MOVIES BY GENRE
+// =====================================
+
+const genreButtons = document.querySelectorAll(".genre-card");
+
+genreButtons.forEach(button => {
+
+    button.addEventListener("click", function() {
+
+        const selectedGenre = this.dataset.genre.toLowerCase();
+
+        // Update active button
+        genreButtons.forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+        // Clear search
+        searchInput.value = "";
+
+        const sections = document.querySelectorAll(".movie-section");
+
+        const trendingSection = document.getElementById("popular");
+        const trendingContainer = document.getElementById("trendingMovies");
+
+        // Show all movies
+        if (selectedGenre === "all") {
+
+            sections.forEach(section => {
+                section.style.display = "";
+                section.querySelector("h2").textContent =
+                    sectionHeadings[section.id];
+            });
+
+            movieData.sections.forEach(section => {
+
+                const container = document.getElementById(section.id);
+
+                renderMovies(container, section.movies);
+
+            });
+
+            return;
+        }
+
+        // Hide other sections
+        sections.forEach(section => {
+            section.style.display = "none";
+        });
+
+        // Show filtered results
+        trendingSection.style.display = "block";
+
+        trendingSection.querySelector("h2").textContent =
+            this.textContent.trim() + " Movies";
+
+        // Find matching movies
+        const filteredMovies = allMovies.filter(movie => {
+
+            return movie.genre.some(genre =>
+                genre.toLowerCase() === selectedGenre
+            );
+
+        });
+
+        // Render results
+        if (filteredMovies.length > 0) {
+
+            renderMovies(trendingContainer, filteredMovies);
+
+        } else {
+
+            trendingContainer.innerHTML =
+                "<p style='color:#888; padding:20px;'>" +
+                "No movies found in this genre." +
+                "</p>";
+
+        }
+
+    });
+
+});
+
+
+// =====================================
 // SEARCH MOVIES
 // =====================================
 
