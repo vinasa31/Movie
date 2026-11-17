@@ -1,4 +1,14 @@
+:root{
+    --Mint: #00cc99;   
+    --Black: #000;
+    --LighterBlack: #101010;
+    --EvenLighterBlack: #222;
+    --EvenEvenLighterBlack: #333;
+    --EvenEvenEvenLighterBlack: #555;
+    --EvenEvenEvenEvenLighterBlack: #080808;
+    --DarkMint: #02110d;
 
+}
 * {
     margin: 0;
 
@@ -260,6 +270,96 @@ nav a:hover {
     background: #555;
 
 }
+
+
+/* ==============================
+   GENRE NAVIGATION
+============================== */
+
+.genre-section {
+    width: 100%;
+    padding: 15px 5%;
+    border-top: #00e6ad;
+    border-bottom:  rgba(3, 43, 31, 0.25);
+}
+
+.genre-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.genre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.genre-container::-webkit-scrollbar {
+    display: none;
+}
+
+.genre-card {
+    flex: 0 0 auto;
+    padding: 9px 25px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: #ddd;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.genre-card h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.genre-card:hover {
+    color: white;
+    border-color:#056e54;
+}
+
+/* ACTIVE GENRE */
+
+.genre-card.active {
+    color: white;
+    background: linear-gradient(
+        150deg,
+       #00e6ad,
+       #02110d
+    );
+    border-color:#056e54;
+    box-shadow: 0 0 15px rgba(1, 27, 19, 0.25);
+}
+
+/* MOBILE */
+
+@media (max-width: 750px) {
+    .genre-section {
+        padding: 12px 4%;
+    }
+
+    .genre-container {
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .genre-card {
+        padding: 9px 18px;
+    }
+
+    .genre-card h3 {
+        font-size: 13px;
+    }
+}
+
+
+
 
 
 

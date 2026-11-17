@@ -55,7 +55,7 @@
           "poster":"IMG/X.jpg",
           "year": 2026,
           "genre": [
-            "Medical TV Shows"
+            "Medical TV Shows","Action"
           ],
           "cast": [
             "Kim Jiwon",
@@ -87,7 +87,7 @@
         {
           "id": 4,
           "title": "How to lose a guy in 10 days",
-          "category": "Comedy Romance • 2003",
+          "category": "Romance • 2003",
           "rating": 8.7,
           "age": "12A",
           "episode":"1 EP",
@@ -96,7 +96,7 @@
           "poster":"IMG/10days.jpg",
           "year": 2003,
           "genre": [
-            "Comedy Romance"
+            "Romance"
           ],
           "cast": [
             "Kate Hudson",
@@ -142,8 +142,7 @@
           "poster":"IMG/Obss.jpg",
           "year": 2026,
           "genre": [
-            "Horror",
-            "Movie"
+            "Horror"
           ],
           "cast": [
             "Michael Johnston",
@@ -154,7 +153,7 @@
         {
           "id": 7,
           "title": "Voicemails for Isabelle",
-          "category": "Romantic Comedy • Movie",
+          "category": "Romance• Movie",
           "rating": 9.1,
           "age": "PG-13",
           "episode":"1 EP",
@@ -163,8 +162,7 @@
           "poster":"IMG/voicem.jpg",
           "year": 2026,
           "genre": [
-            "Romantic Comedy",
-            "Movie"
+            "Romance"
           ],
           "cast": [
             "Zoey Deutch",
@@ -184,8 +182,7 @@
           "poster":"IMG/any1butu.jpg",
           "year": 2023,
           "genre": [
-            "Romance",
-            "Drama"
+            "Romance"
           ],
           "cast": [
             "Sydney Sweeny",
@@ -205,8 +202,7 @@
           "poster":"",
           "year": 2026,
           "genre": [
-            "Fantasy",
-            "Movie"
+            "Action"
           ],
           "cast": [
             "Matt Damon",
@@ -227,8 +223,7 @@
           "poster":"IMG/spider.jpg",
           "year": 2023,
           "genre": [
-            "Animation",
-            "Movie"
+            "Animation"
           ],
           "cast": [
             "Shameik Morre",
@@ -255,8 +250,7 @@
           "poster":"",
           "year": null,
           "genre": [
-            "Romance",
-            "Chinese Drama"
+            "Romance"
           ],
           "cast": [
             "Zhao Lusi",
@@ -276,8 +270,7 @@
           "poster":"IMG/bloodhound.jpg",
           "year": 2026,
           "genre": [
-            "Action",
-            "Korean Drama"
+            "Action"
           ],
           "cast": ["Woo Do‑hwan","Lee Sang-yi","Jung Ji-hoon"],
           "trailer": "https://www.imdb.com/video/vi634047257/?ref_=ext_shr_lnk"
@@ -294,8 +287,7 @@
           "poster":"IMG/runner.jpg",
           "year": 2024,
           "genre": [
-            "Romantic Comedy",
-            "Korean Drama"
+            "Romance"
           ],
           "cast": [],
           "trailer": "https://www.imdb.com/video/vi634047257/?playlistId=tt26315487&ref_=ext_shr_lnkhttps://www.imdb.com/video/vi250791449/?playlistId=tt31324295&ref_=ext_shr_lnk"
@@ -312,8 +304,7 @@
           "poster":"IMG/mask2.jpg",
           "year": 2026,
           "genre": [
-            "Romance",
-            "Chinese Drama"
+            "Romance"
           ],
           "cast": ["Tian Xiwei","Yan An", "Wang Yinan","Yin Wenxuan"],
           "trailer":"https://www.netflix.com/kh/title/83150089?source=imdb&fromWatch=true"
@@ -330,8 +321,7 @@
           "poster":"IMG/blossomposter.jpg",
           "year": 2024,
           "genre": [
-            "Romance",
-            "Chinese Drama"
+            "Romance"
           ],
           "cast": ["Li Yunrui", "Meng Ziyi","Kong Xueer"],
           "trailer":"https://v.mydramalist.com/306/3069e0434a72c4ca9efd86b81a43957c.mp4"
@@ -354,8 +344,7 @@
           "poster":"IMG/titan.jpg",
           "year": 2023,
           "genre": [
-            "Action",
-            "Anime"
+            "Action","Adventure","Animation"
           ],
           "cast": [],
           "trailer":"https://www.imdb.com/video/vi3191457561/?playlistId=tt2560140&ref_=ext_shr_lnk"
@@ -372,8 +361,7 @@
           "poster":"IMG/waguri2.jpg",
           "year": 2025,
           "genre": [
-            "Romance",
-            "Anime"
+            "Romance","Animation"
           ],
           "cast": [],
           "trailer":"https://www.imdb.com/video/vi1945290777/?playlistId=tt36592690&ref_=ext_shr_lnk"
@@ -381,7 +369,7 @@
         {
           "id": 18,
           "title": "Naruto",
-          "category": "Adventure • Anime",
+          "category": "Action • Anime",
           "rating": 8.0,
           "age": "PG-13",
           "episode":"220",
@@ -390,8 +378,7 @@
           "poster":"IMG/naruto.jpg",
           "year": 2002,
           "genre": [
-            "Adventure",
-            "Anime"
+            "Action","Animation"
           ],
           "cast": [],
           "trailer":"https://www.imdb.com/video/vi3113746713/?playlistId=tt0409591&ref_=ext_shr_lnk"
@@ -399,7 +386,7 @@
         {
           "id": 19,
           "title": "Jujutsu Kaisen",
-          "category": "Fction • Anime",
+          "category": "Action • Anime",
           "rating": 8.4,
           "age": "17+",
           "episode":"63",
@@ -409,7 +396,7 @@
           "year": 2020,
           "genre": [
             "Action",
-            "Anime"
+            "Animation"
           ],
           "cast": [],
           "trailer":"https://www.imdb.com/video/vi556582937/?playlistId=tt12343534&ref_=ext_shr_lnk"
@@ -426,8 +413,8 @@
           "poster":"IMG/name.jpg",
           "year": 2020,
           "genre": [
-            "Adventure",
-            "Anime"
+            "Animation",
+            "Romance"
           ],
           "cast": [],
           "trailer":"https://www.imdb.com/video/vi4138781209/?playlistId=tt5311514&ref_=ext_shr_lnk"
