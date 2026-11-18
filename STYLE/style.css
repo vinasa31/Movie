@@ -337,27 +337,6 @@ nav a:hover {
     box-shadow: 0 0 15px rgba(1, 27, 19, 0.25);
 }
 
-/* MOBILE */
-
-@media (max-width: 750px) {
-    .genre-section {
-        padding: 12px 4%;
-    }
-
-    .genre-container {
-        justify-content: flex-start;
-        gap: 30px;
-    }
-
-    .genre-card {
-        padding: 9px 18px;
-    }
-
-    .genre-card h3 {
-        font-size: 13px;
-    }
-}
-
 /* MOVIE SECTIONS */
 
 main {
@@ -597,24 +576,6 @@ main {
     width: 100%;
 }
 
-/* Tablet */
-@media (max-width: 1000px) {
-    #myListContainer {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-/* Mobile */
-@media (max-width: 750px) {
-    #myListContainer {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 12px;
-    }
-
-    #mylist .section-heading h2 {
-        font-size: 18px;
-    }
-}
 /* MOVIE DETAIL FAVORITE BUTTON */
 .detail-favorite-btn {
     display: inline-flex;
@@ -872,337 +833,6 @@ footer h2 {
     color: #777;
     font-size: 13px;
 }
-/* RESPONSIVE */
-
-@media (max-width: 1000px) {
-
-    .movie-container {
-
-        grid-template-columns: repeat(4, 1fr);
-
-    }
-
-
-
-    nav {
-
-        gap: 12px;
-
-    }
-
-}
-
-
-
-/* ── Tablet / Large Mobile (≤ 750px) ── */
-
-@media (max-width: 750px) {
-
-
-
-    /* Navbar: single clean row — logo left, hamburger-style controls right */
-
-    .navbar {
-
-        height: 65px;
-
-        padding: 0 4%;
-
-        gap: 10px;
-
-    }
-
-
-
-    .logo {
-
-        font-size: 22px;
-
-    }
-
-
-
-    /* Collapse nav links below the main bar */
-
-    nav {
-
-        display: none; /* hidden on mobile — can add hamburger later */
-
-    }
-
-
-
-    .nav-right {
-
-        gap: 8px;
-
-    }
-
-
-
-    .nav-right input {
-
-        width: 140px;
-
-        padding: 8px 12px;
-
-        font-size: 13px;
-
-    }
-
-
-
-    .login-btn {
-
-        padding: 8px 14px;
-
-        font-size: 13px;
-
-    }
-
-
-
-    /* Hero: more breathing room, smaller text */
-
-    .hero {
-
-        height: auto;
-
-        min-height: 500px;
-
-        padding: 100px 6% 50px;
-
-        background:
-
-            linear-gradient(to right, #101010 25%, transparent 90%),
-
-            linear-gradient(to top, #101010 10%, transparent 60%),
-
-            url("../IMG/hiddenlove.jpg")
-
-            center top / cover no-repeat;
-
-    }
-
-
-
-    .hero-content {
-
-        max-width: 100%;
-
-    }
-
-
-
-    .tag {
-
-        font-size: 11px;
-
-        letter-spacing: 2px;
-
-    }
-
-
-
-    .hero h1 {
-
-        font-size: 38px;
-
-        margin: 14px 0;
-
-    }
-
-
-
-    .hero p {
-
-        font-size: 14px;
-
-        line-height: 1.6;
-
-        margin-bottom: 20px;
-
-    }
-
-
-
-    .watch-btn,
-
-    .info-btn {
-
-        padding: 10px 18px;
-
-        font-size: 13px;
-
-    }
-
-
-
-    /* Movie grid: 3 columns */
-
-    .movie-container {
-
-        grid-template-columns: repeat(3, 1fr);
-
-        gap: 12px;
-
-    }
-
-
-
-    /* Shorter poster height to keep cards compact */
-
-    .movie-card .poster {
-
-        height: 200px;
-
-    }
-
-
-
-    .movie-card h3 {
-
-        font-size: 13px;
-
-    }
-
-
-
-    .movie-card p {
-
-        font-size: 11px;
-
-    }
-
-
-
-    .section-heading h2 {
-
-        font-size: 18px;
-
-    }
-
-
-
-    main {
-
-        padding: 15px 4%;
-
-    }
-
-
-
-}
-
-
-
-/* ── Small Mobile (≤ 480px) ── */
-
-@media (max-width: 480px) {
-
-
-
-    .navbar {
-
-        height: 60px;
-
-        padding: 0 4%;
-
-    }
-
-
-
-    .logo {
-
-        font-size: 20px;
-
-    }
-
-
-
-    .nav-right input {
-
-        width: 110px;
-
-        padding: 7px 10px;
-
-    }
-
-
-
-    .login-btn {
-
-        padding: 7px 12px;
-
-    }
-
-
-
-    .hero {
-
-        min-height: 420px;
-
-        padding: 85px 5% 40px;
-
-    }
-
-
-
-    .hero h1 {
-
-        font-size: 30px;
-
-        margin: 10px 0;
-
-    }
-
-
-
-    .hero p {
-
-        font-size: 13px;
-
-    }
-
-
-
-    /* Movie grid: 2 columns on small phones */
-
-    .movie-container {
-
-        grid-template-columns: repeat(2, 1fr);
-
-        gap: 10px;
-
-    }
-
-
-
-    .movie-card .poster {
-
-        height: 190px;
-
-    }
-
-
-
-    .section-heading h2 {
-
-        font-size: 16px;
-
-    }
-
-
-
-    main {
-
-        padding: 12px 4%;
-
-    }
-
-
-
-}
 
 /* ==============================
    MOVIE DETAIL HERO
@@ -1428,13 +1058,392 @@ footer h2 {
     background: white;
 }
 
-/* RESPONSIVE */
+/* ============
+   Responsive
+================ */
+
+@media (max-width: 1000px) {
+
+    /* GENERAL */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* NAVIGATION */
+    .navbar {
+        padding: 0 4%;
+        height: 70px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .nav-right {
+        gap: 10px;
+    }
+
+    .nav-right input {
+        width: 150px;
+        padding: 9px 12px;
+    }
+
+    .login-btn {
+        padding: 9px 15px;
+    }
+
+
+    /* HERO SECTION */
+    .hero {
+        height: 550px;
+        padding: 85px 6% 0;
+
+        background:
+            linear-gradient(to right, #101010 15%, transparent 100%),
+            linear-gradient(to top, #101010, transparent 45%),
+            url("../IMG/hiddenlove.jpg") center top / cover no-repeat;
+    }
+
+    .hero-content {
+        max-width: 450px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+
+    /* GENRE NAVIGATION */
+    .genre-section {
+        padding: 14px 4%;
+    }
+
+    .genre-container {
+        gap: 18px;
+    }
+
+    .genre-card {
+        padding: 9px 18px;
+    }
+
+    .genre-card h3 {
+        font-size: 14px;
+    }
+
+
+    /* MAIN CONTENT */
+    main {
+        padding: 18px 4%;
+    }
+
+    .movie-section {
+        margin: 30px 0;
+    }
+
+    .section-heading h2 {
+        font-size: 21px;
+    }
+
+
+    /* MOVIE GRID */
+    .movie-container {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .movie-card .poster {
+        height: 240px;
+    }
+
+    .movie-card .card-info {
+        padding: 9px 10px 12px;
+    }
+
+    .movie-card h3 {
+        font-size: 13px;
+    }
+
+    .movie-card p {
+        font-size: 11px;
+    }
+
+
+    /* WATCHLIST */
+    #mylist {
+        margin: 30px 0;
+    }
+
+    #myListContainer {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+
+    /* MOVIE FAVORITE BUTTON */
+    .favorite-btn {
+        width: 33px;
+        height: 33px;
+        font-size: 20px;
+    }
+
+    .detail-favorite-btn {
+        padding: 10px 17px;
+        font-size: 14px;
+    }
+
+
+    /* MOVIE DETAIL PAGE */
+    .movie-detail {
+        padding: 100px 5% 50px;
+    }
+
+    .movie-information {
+        width: 65%;
+        max-width: 600px;
+    }
+
+    .movie-information h1 {
+        font-size: 45px;
+    }
+
+    #moviePlot {
+        font-size: 15px;
+        max-width: 550px;
+    }
+
+    .movie-cover {
+        width: 165px;
+        height: 230px;
+    }
+
+    .movie-extra {
+        gap: 18px;
+    }
+
+    .movie-meta {
+        gap: 10px;
+    }
+
+    .movie-meta span {
+        font-size: 14px;
+    }
+
+
+    /* MODAL */
+    .modal-content {
+        width: 600px;
+    }
+
+    .modal-content img {
+        height: 270px;
+    }
+
+
+    /* FOOTER */
+    footer {
+        padding: 35px 25px;
+    }
+
+    .footer {
+        padding: 35px 20px 20px;
+    }
+
+    .footer-content h2 {
+        font-size: 23px;
+    }
+
+}
 
 @media (max-width: 750px) {
 
+    /* GENERAL */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* NAVIGATION */
+    .navbar {
+        height: 65px;
+        padding: 0 4%;
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .nav-right {
+        gap: 8px;
+    }
+
+    .nav-right input {
+        width: 140px;
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .login-btn {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+
+
+    /* HERO SECTION */
+    .hero {
+        height: auto;
+        min-height: 500px;
+        padding: 100px 6% 50px;
+
+        background:
+            linear-gradient(to right, #101010 25%, transparent 90%),
+            linear-gradient(to top, #101010 10%, transparent 60%),
+            url("../IMG/hiddenlove.jpg") center top / cover no-repeat;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .tag {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        margin: 14px 0;
+    }
+
+    .hero p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .hero-buttons {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .watch-btn,
+    .info-btn {
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+
+
+    /* GENRE NAVIGATION */
+    .genre-section {
+        padding: 12px 4%;
+    }
+
+    .genre-container {
+        justify-content: flex-start;
+        gap: 12px;
+    }
+
+    .genre-card {
+        padding: 9px 16px;
+    }
+
+    .genre-card h3 {
+        font-size: 13px;
+    }
+
+
+    /* MAIN CONTENT */
+    main {
+        padding: 15px 4%;
+    }
+
+    .movie-section {
+        margin: 25px 0;
+    }
+
+    .section-heading {
+        margin-bottom: 15px;
+    }
+
+    .section-heading h2 {
+        font-size: 18px;
+    }
+
+    .section-heading a {
+        font-size: 13px;
+    }
+
+
+    /* MOVIE GRID */
+    .movie-container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .movie-card .poster {
+        height: 200px;
+    }
+
+    .movie-card .card-info {
+        padding: 9px 8px 12px;
+    }
+
+    .movie-card h3 {
+        font-size: 13px;
+    }
+
+    .movie-card p {
+        font-size: 11px;
+    }
+
+    .movie-card .poster .badge {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+
+    .favorite-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        top: 7px;
+        left: 7px;
+    }
+
+
+    /* MY WATCHLIST */
+    #mylist {
+        margin: 25px 0;
+    }
+
+    #myListContainer {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    #mylist .section-heading h2 {
+        font-size: 18px;
+    }
+
+
+    /* MOVIE DETAIL PAGE */
     .movie-detail {
         min-height: 100vh;
-        padding: 100px 5% 180px;
+        padding: 100px 5% 60px;
         align-items: flex-start;
     }
 
@@ -1444,62 +1453,464 @@ footer h2 {
     }
 
     .movie-information h1 {
-        font-size: 34px;
+        font-size: 36px;
+        margin-bottom: 14px;
     }
 
-    .overall-rating {
-        left: 5%;
-        right: auto;
-        bottom: 35px;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .movie-information h1 {
-        font-size: 28px;
+    .movie-background,
+    .movie-poster img {
+        object-position: center;
     }
 
-    .movie-extra {
-        gap: 12px;
+    .movie-detail-overlay {
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.98) 0%,
+            rgba(0, 0, 0, 0.75) 55%,
+            rgba(0, 0, 0, 0.35) 100%
+        );
     }
 
-    .movie-cover {
-        width: 150px;
-        height: 210px;
+    .movie-year {
+        font-size: 14px;
     }
 
     #moviePlot {
-        font-size: 12px;
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 1.6;
     }
 
-    .movie-detail {
-        padding-bottom: 170px;
-    }
-}
-@media (max-width: 480px) {
-
-    .movie-cover {
-        width: 115px;
-        height: 165px;
-    }
-
-    .movie-extra {
-        gap: 14px;
-    }
-    .movie-information h1 {
-        font-size: 28px;
-    }
-     .movie-meta {
+    .movie-meta {
         gap: 8px;
     }
 
     .movie-meta span {
-        font-size: 12px;
+        font-size: 13px;
         padding: 6px 10px;
     }
 
-    .trailer-section {
-        padding: 30px 5%;
+    .movie-extra {
+        gap: 15px;
+        margin-bottom: 18px;
     }
+
+    .movie-cover {
+        width: 145px;
+        height: 200px;
+    }
+
+    .movie-information h2 {
+        font-size: 19px;
+    }
+
+    #movieCast {
+        font-size: 13px;
+    }
+
+    #movieCast span {
+        font-size: 13px;
+    }
+
+    #movieEpisodes {
+        font-size: 13px;
+    }
+
+    #movieRating {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .detail-favorite-btn {
+        padding: 9px 14px;
+        font-size: 13px;
+    }
+
+    .trailer-section {
+        margin-top: 15px;
+    }
+
+    .trailer-link {
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+
+
+    /* MODAL */
+    .modal {
+        padding: 15px;
+    }
+
+    .modal-content {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .modal-content img {
+        height: 230px;
+    }
+
+    .modal-details {
+        padding: 18px;
+    }
+
+    .modal-details h2 {
+        font-size: 20px;
+    }
+
+    .modal-details p {
+        font-size: 14px;
+    }
+
+
+    /* FOOTER */
+    footer {
+        padding: 30px 15px;
+        font-size: 13px;
+    }
+
+    .footer {
+        padding: 30px 15px 15px;
+    }
+
+    .footer-content h2 {
+        font-size: 22px;
+    }
+
+    .footer-content p {
+        font-size: 13px;
+    }
+
+    .social-icons {
+        gap: 14px;
+    }
+
+    .social-icons a {
+        width: 38px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    /* GENERAL */
+    body {
+        font-size: 14px;
+    }
+
+
+    /* NAVIGATION */
+    .navbar {
+        height: 60px;
+        padding: 0 4%;
+    }
+
+    .logo {
+        font-size: 19px;
+    }
+
+    .nav-right {
+        gap: 6px;
+    }
+
+    .nav-right input {
+        width: 105px;
+        padding: 7px 9px;
+        font-size: 11px;
+    }
+
+    .login-btn {
+        padding: 7px 10px;
+        font-size: 11px;
+    }
+
+
+    /* HERO SECTION */
+    .hero {
+        min-height: 420px;
+        padding: 85px 5% 40px;
+        background-position: center top;
+    }
+
+    .tag {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .hero h1 {
+        font-size: 29px;
+        margin: 10px 0;
+    }
+
+    .hero p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+        gap: 8px;
+    }
+
+    .watch-btn,
+    .info-btn {
+        padding: 9px 14px;
+        font-size: 12px;
+    }
+
+
+    /* GENRE NAVIGATION */
+    .genre-section {
+        padding: 10px 3%;
+    }
+
+    .genre-container {
+        gap: 8px;
+    }
+
+    .genre-card {
+        padding: 8px 13px;
+    }
+
+    .genre-card h3 {
+        font-size: 12px;
+    }
+
+
+    /* MAIN CONTENT */
+    main {
+        padding: 12px 3%;
+    }
+
+    .movie-section {
+        margin: 20px 0;
+    }
+
+    .section-heading {
+        margin-bottom: 12px;
+    }
+
+    .section-heading h2 {
+        font-size: 16px;
+    }
+
+    .section-heading a {
+        font-size: 11px;
+    }
+
+
+    /* MOVIE GRID */
+    .movie-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .movie-card {
+        border-radius: 7px;
+    }
+
+    .movie-card .poster {
+        height: 190px;
+    }
+
+    .movie-card .card-info {
+        padding: 8px 7px 10px;
+    }
+
+    .movie-card h3 {
+        font-size: 12px;
+    }
+
+    .movie-card p {
+        font-size: 10px;
+    }
+
+    .movie-card .poster .badge {
+        top: 6px;
+        right: 6px;
+        font-size: 9px;
+    }
+
+    .favorite-btn {
+        width: 27px;
+        height: 27px;
+        font-size: 16px;
+        top: 6px;
+        left: 6px;
+    }
+
+
+    /* MY WATCHLIST */
+    #mylist {
+        margin: 20px 0;
+    }
+
+    #myListContainer {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    #mylist .section-heading h2 {
+        font-size: 16px;
+    }
+
+
+    /* MOVIE DETAIL PAGE */
+    .movie-detail {
+        padding: 85px 4% 45px;
+        min-height: 100vh;
+    }
+
+    .movie-information {
+        width: 100%;
+    }
+
+    .movie-information h1 {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+
+    .movie-year {
+        font-size: 12px;
+    }
+
+    #moviePlot {
+        font-size: 12px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .movie-meta {
+        gap: 6px;
+        margin-bottom: 13px;
+    }
+
+    .movie-meta span {
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+
+    .movie-extra {
+        gap: 12px;
+        margin-bottom: 15px;
+    }
+
+    .movie-cover {
+        width: 105px;
+        height: 155px;
+    }
+
+    .movie-information h2 {
+        font-size: 16px;
+        margin: 15px 0 8px;
+    }
+
+    #movieCast span {
+        font-size: 11px;
+    }
+
+    #movieEpisodes {
+        font-size: 11px;
+        padding: 6px 9px;
+    }
+
+    #movieRating {
+        height: 27px;
+        font-size: 11px;
+        padding: 0 9px;
+    }
+
+    .detail-favorite-btn {
+        padding: 8px 11px;
+        font-size: 11px;
+        gap: 6px;
+        margin-bottom: 15px;
+    }
+
+    .trailer-section {
+        margin-top: 10px;
+    }
+
+    .trailer-section h2 {
+        font-size: 13px;
+    }
+
+    .trailer-link {
+        padding: 10px 17px;
+        font-size: 12px;
+    }
+
+
+    /* MODAL */
+    .modal {
+        padding: 10px;
+    }
+
+    .modal-content {
+        border-radius: 8px;
+    }
+
+    .modal-content img {
+        height: 180px;
+    }
+
+    .modal-details {
+        padding: 14px;
+    }
+
+    .modal-details h2 {
+        font-size: 17px;
+    }
+
+    .modal-details p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .close-btn {
+        top: 8px;
+        right: 8px;
+        padding: 8px;
+    }
+
+
+    /* FOOTER */
+    footer {
+        padding: 25px 12px;
+        font-size: 11px;
+    }
+
+    .footer {
+        padding: 25px 12px 12px;
+    }
+
+    .footer-content h2 {
+        font-size: 19px;
+    }
+
+    .footer-content p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .social-icons {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .social-icons a {
+        width: 34px;
+        height: 34px;
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        font-size: 10px;
+    }
+
 }
