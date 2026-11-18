@@ -7,6 +7,84 @@ const params = new URLSearchParams(window.location.search);
 const movieId = Number(params.get("id"));
 
 
+// =====================================
+// FAVORITE MOVIE SYSTEM
+// =====================================
+
+// Get saved favorite movie IDs
+function getFavoriteMovies() {
+
+    return JSON.parse(
+        localStorage.getItem("trioflexFavorites")
+    ) || [];
+
+}
+
+
+// Check whether a movie is favorited
+function isFavorite(movieId) {
+
+    return getFavoriteMovies().some(
+        id => String(id) === String(movieId)
+    );
+
+}
+
+
+// Add or remove favorite
+function toggleDetailFavorite(movieId) {
+
+    let favorites = getFavoriteMovies();
+
+    if (isFavorite(movieId)) {
+
+        // Remove movie
+        favorites = favorites.filter(
+            id => String(id) !== String(movieId)
+        );
+
+    } else {
+
+        // Add movie
+        favorites.push(movieId);
+
+    }
+
+    // Save favorites
+    localStorage.setItem(
+        "trioflexFavorites",
+        JSON.stringify(favorites)
+    );
+
+    // Update button
+    updateDetailFavoriteButton(movieId);
+
+}
+
+
+// Update favorite button appearance
+function updateDetailFavoriteButton(movieId) {
+
+    const button = document.getElementById(
+        "detailFavoriteBtn"
+    );
+
+    if (!button) return;
+
+    if (isFavorite(movieId)) {
+
+        button.innerHTML = "♥ Added to My List";
+        button.classList.add("active");
+
+    } else {
+
+        button.innerHTML = "♡ Add to My List";
+        button.classList.remove("active");
+
+    }
+
+}
+
 // ==============================
 // LOAD MOVIE DATA
 // ==============================
@@ -37,6 +115,22 @@ async function loadMovieDetails() {
                 "<h2>Movie not found!</h2>";
             return;
         }
+
+        // ==============================
+        // CONNECT FAVORITE BUTTON
+        // ==============================
+
+        const favoriteButton = document.getElementById("detailFavoriteBtn");
+        // Show current favorite status
+        updateDetailFavoriteButton(movie.id);
+
+        // Add click event
+        if (favoriteButton)
+            {
+                favoriteButton.addEventListener("click", function() {
+                toggleDetailFavorite(movie.id);
+            });
+            }
         // ==============================
         // DISPLAY MOVIE INFORMATION
         // ==============================

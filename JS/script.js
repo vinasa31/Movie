@@ -15,12 +15,12 @@ async function loadMovies() {
 
         movieData = await response.json();
 
-        // Collect all movies from all sections into 1 array
+        // Collect all movies
         allMovies = movieData.sections.flatMap(
-            section => section.movies
+            section => section.movies || []
         );
 
-        // Display movies in their original sections
+        // Display original movie sections
         movieData.sections.forEach(section => {
 
             const container = document.getElementById(section.id);
@@ -30,6 +30,9 @@ async function loadMovies() {
             }
 
         });
+
+        // Display saved favorites separately
+        renderMyList();
 
     } catch (error) {
 
@@ -76,6 +79,37 @@ function renderMovies(container, movies) {
 
         poster.appendChild(img);
         poster.appendChild(badge);
+
+        // Create favorite button
+        const favoriteBtn = document.createElement("button");
+
+        favoriteBtn.className = "favorite-btn";
+
+        // Check whether this movie is already favorited
+        favoriteBtn.innerHTML = isFavorite(movie.id) ? "♥" : "♡";
+
+        if (isFavorite(movie.id)) {
+        favoriteBtn.classList.add("active");
+        }
+
+        // Favorite button click
+        favoriteBtn.addEventListener("click", function(event) {
+
+        // Prevent opening the movie detail page
+         event.stopPropagation();
+
+         toggleFavorite(movie.id);
+
+         // Update the heart
+        favoriteBtn.innerHTML = isFavorite(movie.id) ? "♥" : "♡";
+
+        favoriteBtn.classList.toggle("active", isFavorite(movie.id));
+
+        // Refresh My Watchlist
+        renderMyList();
+
+    });
+    poster.appendChild(favoriteBtn);
 
         // Create movie information
         const cardInfo = document.createElement("div");
@@ -129,7 +163,52 @@ document.getElementById("movieModal").addEventListener(
 
     }
 );
+// ==============================
+// FAVORITE MOVIE SYSTEM
+// ==============================
 
+function getFavoriteMovies() {
+
+    return JSON.parse(
+        localStorage.getItem("trioflexFavorites")
+    ) || [];
+
+}
+
+
+// Check if movie is favorited
+function isFavorite(movieId) {
+
+    return getFavoriteMovies().some(
+        id => String(id) === String(movieId)
+    );
+
+}
+
+
+// Add or remove favorite
+function toggleFavorite(movieId) {
+
+    let favorites = getFavoriteMovies();
+
+    if (isFavorite(movieId)) {
+
+        favorites = favorites.filter(
+            id => String(id) !== String(movieId)
+        );
+
+    } else {
+
+        favorites.push(movieId);
+
+    }
+
+    localStorage.setItem(
+        "trioflexFavorites",
+        JSON.stringify(favorites)
+    );
+
+}
 
 // =====================================
 // FEATURED MOVIE (HERO)
@@ -167,9 +246,6 @@ function openModal(movie) {
         "flex";
 
 }
-const featuredMovie = allMovies.find(movie =>
-    movie.id === movieData.featured.id
-);
 
 // =====================================
 // WATCH BUTTON
@@ -291,20 +367,30 @@ genreButtons.forEach(button => {
         // Show all movies
         if (selectedGenre === "all") {
 
-            sections.forEach(section => {
-                section.style.display = "";
-                section.querySelector("h2").textContent =
-                    sectionHeadings[section.id];
+         // Show every movie section, including My Watchlist
+        sections.forEach(section => {
+             section.style.display = "";
+
+             const heading = section.querySelector("h2");
+             
+             if (heading && sectionHeadings[section.id]) {
+            
+                heading.textContent = sectionHeadings[section.id];
+             }
+
             });
 
+            // Restore original movie sections
             movieData.sections.forEach(section => {
 
                 const container = document.getElementById(section.id);
 
-                renderMovies(container, section.movies);
-
+                    if(container){
+                        renderMovies(container, section.movies);
+                    }
             });
-
+            // Restore My Watchlist
+            renderMyList();
             return;
         }
 
@@ -346,7 +432,37 @@ genreButtons.forEach(button => {
 
 });
 
+// ==============================
+// DISPLAY MY WATCHLIST
+// ==============================
 
+function renderMyList() {
+
+    const myListContainer = document.getElementById("myListContainer");
+
+    if (!myListContainer) return;
+
+    // Get favorite movie IDs from localStorage
+    const favorites = JSON.parse(
+        localStorage.getItem("trioflexFavorites")
+    ) || [];
+
+    // Find movies that match the saved IDs
+    const myMovies = allMovies.filter(movie =>
+        favorites.some(id => String(id) === String(movie.id))
+    );
+
+    // Show message if watchlist is empty
+    if (myMovies.length === 0) {
+
+        myListContainer.innerHTML = "<p></p>";
+
+        return;
+    }
+
+    // Display favorite movies
+    renderMovies(myListContainer, myMovies);
+}
 // =====================================
 // SEARCH MOVIES
 // =====================================
@@ -357,7 +473,8 @@ const sectionHeadings = {
     popular: "Trending Now",
     movies: "Popular Movies",
     dramas: "Popular Dramas",
-    anime: "Popular Anime"
+    anime: "Popular Anime",
+    mylist: "My Watchlist"
 };
 
 searchInput.addEventListener("input", function() {
